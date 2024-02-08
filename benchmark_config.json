@@ -1,0 +1,14 @@
+{
+  "queries": [
+    {
+      "type": "temporal_range_aggregation",
+      "variable": "t2m",
+      "operation": "mean",
+      "time_ranges": [
+        {"start": "2020-01-01", "end": "2020-01-31"},
+        {"start": "2020-06-01", "end": "2020-06-30"}
+      ]
+    }
+  ],
+  "number_of_runs": 5
+}
