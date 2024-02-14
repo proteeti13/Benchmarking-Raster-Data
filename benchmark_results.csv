@@ -1,0 +1,2110 @@
+result,execution_time_sec,cpu_usage_diff_percent,memory_usage_diff_mb,query_index,query_type
+"<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
+array([[486.21262, 486.34933, 486.47433, ...,   0.     ,   0.     ,
+          0.     ],
+       [486.96262, 487.07004, 487.1794 , ...,   0.     ,   0.     ,
+          0.     ],
+       [487.78683, 487.91183, 488.01926, ...,   0.     ,   0.     ,
+          0.     ],
+       ...,
+       [  0.     ,   0.     ,   0.     , ..., 575.5427 , 575.5408 ,
+        575.6052 ],
+       [  0.     ,   0.     ,   0.     , ..., 575.8142 , 575.56616,
+        575.67944],
+       [  0.     ,   0.     ,   0.     , ..., 575.9939 , 575.6853 ,
+        575.6677 ]], dtype=float32)
+Coordinates:
+    number     int32 ...
+    step       timedelta64[ns] ...
+    surface    float64 ...
+  * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.026505800000450108,-1.3000000000000003,2.41796875,0,TemporalRangeAggregation
+"<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
+array([[243.10631, 243.17467, 243.23717, ...,       nan,       nan,
+              nan],
+       [243.48131, 243.53502, 243.5897 , ...,       nan,       nan,
+              nan],
+       [243.89342, 243.95592, 244.00963, ...,       nan,       nan,
+              nan],
+       ...,
+       [      nan,       nan,       nan, ..., 287.77136, 287.7704 ,
+        287.8026 ],
+       [      nan,       nan,       nan, ..., 287.9071 , 287.78308,
+        287.83972],
+       [      nan,       nan,       nan, ..., 287.99695, 287.84265,
+        287.83386]], dtype=float32)
+Coordinates:
+    number     int32 ...
+    step       timedelta64[ns] ...
+    surface    float64 ...
+  * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.015482300004805438,-93.8,2.4296875,1,TemporalRangeAggregation
+"<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
+array([[243.10631, 243.17467, 243.23717, ...,       nan,       nan,
+              nan],
+       [243.48131, 243.53502, 243.5897 , ...,       nan,       nan,
+              nan],
+       [243.89342, 243.95592, 244.00963, ...,       nan,       nan,
+              nan],
+       ...,
+       [      nan,       nan,       nan, ..., 287.77136, 287.7704 ,
+        287.8026 ],
+       [      nan,       nan,       nan, ..., 287.9071 , 287.78308,
+        287.83972],
+       [      nan,       nan,       nan, ..., 287.99695, 287.84265,
+        287.83386]], dtype=float32)
+Coordinates:
+    number     int32 ...
+    step       timedelta64[ns] ...
+    surface    float64 ...
+  * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.014575799999875017,4.8,4.0,2,TemporalRangeAggregation
+"<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
+array([[243.10631, 243.17467, 243.23717, ...,       nan,       nan,
+              nan],
+       [243.48131, 243.53502, 243.5897 , ...,       nan,       nan,
+              nan],
+       [243.89342, 243.95592, 244.00963, ...,       nan,       nan,
+              nan],
+       ...,
+       [      nan,       nan,       nan, ..., 287.77136, 287.7704 ,
+        287.8026 ],
+       [      nan,       nan,       nan, ..., 287.9071 , 287.78308,
+        287.83972],
+       [      nan,       nan,       nan, ..., 287.99695, 287.84265,
+        287.83386]], dtype=float32)
+Coordinates:
+    number     int32 ...
+    step       timedelta64[ns] ...
+    surface    float64 ...
+  * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.014182799997797702,0.0,0.16015625,3,TemporalRangeAggregation
+"<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
+array([[486.21262, 486.34933, 486.47433, ...,   0.     ,   0.     ,
+          0.     ],
+       [486.96262, 487.07004, 487.1794 , ...,   0.     ,   0.     ,
+          0.     ],
+       [487.78683, 487.91183, 488.01926, ...,   0.     ,   0.     ,
+          0.     ],
+       ...,
+       [  0.     ,   0.     ,   0.     , ..., 575.5427 , 575.5408 ,
+        575.6052 ],
+       [  0.     ,   0.     ,   0.     , ..., 575.8142 , 575.56616,
+        575.67944],
+       [  0.     ,   0.     ,   0.     , ..., 575.9939 , 575.6853 ,
+        575.6677 ]], dtype=float32)
+Coordinates:
+    number     int32 ...
+    step       timedelta64[ns] ...
+    surface    float64 ...
+  * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.012998700003663544,-100.0,-0.9375,4,TemporalRangeAggregation
+"<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
+array([[486.21262, 486.34933, 486.47433, ...,   0.     ,   0.     ,
+          0.     ],
+       [486.96262, 487.07004, 487.1794 , ...,   0.     ,   0.     ,
+          0.     ],
+       [487.78683, 487.91183, 488.01926, ...,   0.     ,   0.     ,
+          0.     ],
+       ...,
+       [  0.     ,   0.     ,   0.     , ..., 575.5427 , 575.5408 ,
+        575.6052 ],
+       [  0.     ,   0.     ,   0.     , ..., 575.8142 , 575.56616,
+        575.67944],
+       [  0.     ,   0.     ,   0.     , ..., 575.9939 , 575.6853 ,
+        575.6677 ]], dtype=float32)
+Coordinates:
+    number     int32 ...
+    step       timedelta64[ns] ...
+    surface    float64 ...
+  * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.013020700003835373,0.0,3.8046875,5,TemporalRangeAggregation
+"<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
+array([[243.10631, 243.17467, 243.23717, ...,       nan,       nan,
+              nan],
+       [243.48131, 243.53502, 243.5897 , ...,       nan,       nan,
+              nan],
+       [243.89342, 243.95592, 244.00963, ...,       nan,       nan,
+              nan],
+       ...,
+       [      nan,       nan,       nan, ..., 287.77136, 287.7704 ,
+        287.8026 ],
+       [      nan,       nan,       nan, ..., 287.9071 , 287.78308,
+        287.83972],
+       [      nan,       nan,       nan, ..., 287.99695, 287.84265,
+        287.83386]], dtype=float32)
+Coordinates:
+    number     int32 ...
+    step       timedelta64[ns] ...
+    surface    float64 ...
+  * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.015755199994600844,6.2,0.06640625,6,TemporalRangeAggregation
+"<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
+array([[486.21262, 486.34933, 486.47433, ...,   0.     ,   0.     ,
+          0.     ],
+       [486.96262, 487.07004, 487.1794 , ...,   0.     ,   0.     ,
+          0.     ],
+       [487.78683, 487.91183, 488.01926, ...,   0.     ,   0.     ,
+          0.     ],
+       ...,
+       [  0.     ,   0.     ,   0.     , ..., 575.5427 , 575.5408 ,
+        575.6052 ],
+       [  0.     ,   0.     ,   0.     , ..., 575.8142 , 575.56616,
+        575.67944],
+       [  0.     ,   0.     ,   0.     , ..., 575.9939 , 575.6853 ,
+        575.6677 ]], dtype=float32)
+Coordinates:
+    number     int32 ...
+    step       timedelta64[ns] ...
+    surface    float64 ...
+  * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.01416859999881126,6.2,0.01953125,7,TemporalRangeAggregation
+"<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
+array([[243.10631, 243.17467, 243.23717, ...,       nan,       nan,
+              nan],
+       [243.48131, 243.53502, 243.5897 , ...,       nan,       nan,
+              nan],
+       [243.89342, 243.95592, 244.00963, ...,       nan,       nan,
+              nan],
+       ...,
+       [      nan,       nan,       nan, ..., 287.77136, 287.7704 ,
+        287.8026 ],
+       [      nan,       nan,       nan, ..., 287.9071 , 287.78308,
+        287.83972],
+       [      nan,       nan,       nan, ..., 287.99695, 287.84265,
+        287.83386]], dtype=float32)
+Coordinates:
+    number     int32 ...
+    step       timedelta64[ns] ...
+    surface    float64 ...
+  * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.015088500003912486,0.0,5.5703125,8,TemporalRangeAggregation
+"<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
+array([[243.10631, 243.17467, 243.23717, ...,       nan,       nan,
+              nan],
+       [243.48131, 243.53502, 243.5897 , ...,       nan,       nan,
+              nan],
+       [243.89342, 243.95592, 244.00963, ...,       nan,       nan,
+              nan],
+       ...,
+       [      nan,       nan,       nan, ..., 287.77136, 287.7704 ,
+        287.8026 ],
+       [      nan,       nan,       nan, ..., 287.9071 , 287.78308,
+        287.83972],
+       [      nan,       nan,       nan, ..., 287.99695, 287.84265,
+        287.83386]], dtype=float32)
+Coordinates:
+    number     int32 ...
+    step       timedelta64[ns] ...
+    surface    float64 ...
+  * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.014915499996277504,6.2,0.0,9,TemporalRangeAggregation
+"<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
+array([[243.10631, 243.17467, 243.23717, ...,       nan,       nan,
+              nan],
+       [243.48131, 243.53502, 243.5897 , ...,       nan,       nan,
+              nan],
+       [243.89342, 243.95592, 244.00963, ...,       nan,       nan,
+              nan],
+       ...,
+       [      nan,       nan,       nan, ..., 287.77136, 287.7704 ,
+        287.8026 ],
+       [      nan,       nan,       nan, ..., 287.9071 , 287.78308,
+        287.83972],
+       [      nan,       nan,       nan, ..., 287.99695, 287.84265,
+        287.83386]], dtype=float32)
+Coordinates:
+    number     int32 ...
+    step       timedelta64[ns] ...
+    surface    float64 ...
+  * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.014995199999248143,8.7,0.34765625,10,TemporalRangeAggregation
+"<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
+array([[243.10631, 243.17467, 243.23717, ...,       nan,       nan,
+              nan],
+       [243.48131, 243.53502, 243.5897 , ...,       nan,       nan,
+              nan],
+       [243.89342, 243.95592, 244.00963, ...,       nan,       nan,
+              nan],
+       ...,
+       [      nan,       nan,       nan, ..., 287.77136, 287.7704 ,
+        287.8026 ],
+       [      nan,       nan,       nan, ..., 287.9071 , 287.78308,
+        287.83972],
+       [      nan,       nan,       nan, ..., 287.99695, 287.84265,
+        287.83386]], dtype=float32)
+Coordinates:
+    number     int32 ...
+    step       timedelta64[ns] ...
+    surface    float64 ...
+  * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.015109399995708372,0.0,5.20703125,11,TemporalRangeAggregation
+"<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
+array([[486.21262, 486.34933, 486.47433, ...,   0.     ,   0.     ,
+          0.     ],
+       [486.96262, 487.07004, 487.1794 , ...,   0.     ,   0.     ,
+          0.     ],
+       [487.78683, 487.91183, 488.01926, ...,   0.     ,   0.     ,
+          0.     ],
+       ...,
+       [  0.     ,   0.     ,   0.     , ..., 575.5427 , 575.5408 ,
+        575.6052 ],
+       [  0.     ,   0.     ,   0.     , ..., 575.8142 , 575.56616,
+        575.67944],
+       [  0.     ,   0.     ,   0.     , ..., 575.9939 , 575.6853 ,
+        575.6677 ]], dtype=float32)
+Coordinates:
+    number     int32 ...
+    step       timedelta64[ns] ...
+    surface    float64 ...
+  * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.01351299999805633,11.1,0.00390625,12,TemporalRangeAggregation
+"<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
+array([[243.10631, 243.17467, 243.23717, ...,       nan,       nan,
+              nan],
+       [243.48131, 243.53502, 243.5897 , ...,       nan,       nan,
+              nan],
+       [243.89342, 243.95592, 244.00963, ...,       nan,       nan,
+              nan],
+       ...,
+       [      nan,       nan,       nan, ..., 287.77136, 287.7704 ,
+        287.8026 ],
+       [      nan,       nan,       nan, ..., 287.9071 , 287.78308,
+        287.83972],
+       [      nan,       nan,       nan, ..., 287.99695, 287.84265,
+        287.83386]], dtype=float32)
+Coordinates:
+    number     int32 ...
+    step       timedelta64[ns] ...
+    surface    float64 ...
+  * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.01475610000488814,0.0,-0.01953125,13,TemporalRangeAggregation
+"<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
+array([[486.21262, 486.34933, 486.47433, ...,   0.     ,   0.     ,
+          0.     ],
+       [486.96262, 487.07004, 487.1794 , ...,   0.     ,   0.     ,
+          0.     ],
+       [487.78683, 487.91183, 488.01926, ...,   0.     ,   0.     ,
+          0.     ],
+       ...,
+       [  0.     ,   0.     ,   0.     , ..., 575.5427 , 575.5408 ,
+        575.6052 ],
+       [  0.     ,   0.     ,   0.     , ..., 575.8142 , 575.56616,
+        575.67944],
+       [  0.     ,   0.     ,   0.     , ..., 575.9939 , 575.6853 ,
+        575.6677 ]], dtype=float32)
+Coordinates:
+    number     int32 ...
+    step       timedelta64[ns] ...
+    surface    float64 ...
+  * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.013744799995038193,0.0,0.1953125,14,TemporalRangeAggregation
+"<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
+array([[486.21262, 486.34933, 486.47433, ...,   0.     ,   0.     ,
+          0.     ],
+       [486.96262, 487.07004, 487.1794 , ...,   0.     ,   0.     ,
+          0.     ],
+       [487.78683, 487.91183, 488.01926, ...,   0.     ,   0.     ,
+          0.     ],
+       ...,
+       [  0.     ,   0.     ,   0.     , ..., 575.5427 , 575.5408 ,
+        575.6052 ],
+       [  0.     ,   0.     ,   0.     , ..., 575.8142 , 575.56616,
+        575.67944],
+       [  0.     ,   0.     ,   0.     , ..., 575.9939 , 575.6853 ,
+        575.6677 ]], dtype=float32)
+Coordinates:
+    number     int32 ...
+    step       timedelta64[ns] ...
+    surface    float64 ...
+  * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.018111500001396053,0.0,0.50390625,15,TemporalRangeAggregation
+"<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
+array([[486.21262, 486.34933, 486.47433, ...,   0.     ,   0.     ,
+          0.     ],
+       [486.96262, 487.07004, 487.1794 , ...,   0.     ,   0.     ,
+          0.     ],
+       [487.78683, 487.91183, 488.01926, ...,   0.     ,   0.     ,
+          0.     ],
+       ...,
+       [  0.     ,   0.     ,   0.     , ..., 575.5427 , 575.5408 ,
+        575.6052 ],
+       [  0.     ,   0.     ,   0.     , ..., 575.8142 , 575.56616,
+        575.67944],
+       [  0.     ,   0.     ,   0.     , ..., 575.9939 , 575.6853 ,
+        575.6677 ]], dtype=float32)
+Coordinates:
+    number     int32 ...
+    step       timedelta64[ns] ...
+    surface    float64 ...
+  * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.0138952999986941,6.2,5.8203125,16,TemporalRangeAggregation
+"<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
+array([[243.10631, 243.17467, 243.23717, ...,       nan,       nan,
+              nan],
+       [243.48131, 243.53502, 243.5897 , ...,       nan,       nan,
+              nan],
+       [243.89342, 243.95592, 244.00963, ...,       nan,       nan,
+              nan],
+       ...,
+       [      nan,       nan,       nan, ..., 287.77136, 287.7704 ,
+        287.8026 ],
+       [      nan,       nan,       nan, ..., 287.9071 , 287.78308,
+        287.83972],
+       [      nan,       nan,       nan, ..., 287.99695, 287.84265,
+        287.83386]], dtype=float32)
+Coordinates:
+    number     int32 ...
+    step       timedelta64[ns] ...
+    surface    float64 ...
+  * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.014757500000996515,20.0,0.01171875,17,TemporalRangeAggregation
+"<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
+array([[243.10631, 243.17467, 243.23717, ...,       nan,       nan,
+              nan],
+       [243.48131, 243.53502, 243.5897 , ...,       nan,       nan,
+              nan],
+       [243.89342, 243.95592, 244.00963, ...,       nan,       nan,
+              nan],
+       ...,
+       [      nan,       nan,       nan, ..., 287.77136, 287.7704 ,
+        287.8026 ],
+       [      nan,       nan,       nan, ..., 287.9071 , 287.78308,
+        287.83972],
+       [      nan,       nan,       nan, ..., 287.99695, 287.84265,
+        287.83386]], dtype=float32)
+Coordinates:
+    number     int32 ...
+    step       timedelta64[ns] ...
+    surface    float64 ...
+  * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.015367499996500555,0.0,0.1796875,18,TemporalRangeAggregation
+"<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
+array([[486.21262, 486.34933, 486.47433, ...,   0.     ,   0.     ,
+          0.     ],
+       [486.96262, 487.07004, 487.1794 , ...,   0.     ,   0.     ,
+          0.     ],
+       [487.78683, 487.91183, 488.01926, ...,   0.     ,   0.     ,
+          0.     ],
+       ...,
+       [  0.     ,   0.     ,   0.     , ..., 575.5427 , 575.5408 ,
+        575.6052 ],
+       [  0.     ,   0.     ,   0.     , ..., 575.8142 , 575.56616,
+        575.67944],
+       [  0.     ,   0.     ,   0.     , ..., 575.9939 , 575.6853 ,
+        575.6677 ]], dtype=float32)
+Coordinates:
+    number     int32 ...
+    step       timedelta64[ns] ...
+    surface    float64 ...
+  * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.013586400003987364,0.0,0.2265625,19,TemporalRangeAggregation
+"<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
+array([[243.10631, 243.17467, 243.23717, ...,       nan,       nan,
+              nan],
+       [243.48131, 243.53502, 243.5897 , ...,       nan,       nan,
+              nan],
+       [243.89342, 243.95592, 244.00963, ...,       nan,       nan,
+              nan],
+       ...,
+       [      nan,       nan,       nan, ..., 287.77136, 287.7704 ,
+        287.8026 ],
+       [      nan,       nan,       nan, ..., 287.9071 , 287.78308,
+        287.83972],
+       [      nan,       nan,       nan, ..., 287.99695, 287.84265,
+        287.83386]], dtype=float32)
+Coordinates:
+    number     int32 ...
+    step       timedelta64[ns] ...
+    surface    float64 ...
+  * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.014896499997121282,12.5,2.578125,20,TemporalRangeAggregation
+"<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
+array([[486.21262, 486.34933, 486.47433, ...,   0.     ,   0.     ,
+          0.     ],
+       [486.96262, 487.07004, 487.1794 , ...,   0.     ,   0.     ,
+          0.     ],
+       [487.78683, 487.91183, 488.01926, ...,   0.     ,   0.     ,
+          0.     ],
+       ...,
+       [  0.     ,   0.     ,   0.     , ..., 575.5427 , 575.5408 ,
+        575.6052 ],
+       [  0.     ,   0.     ,   0.     , ..., 575.8142 , 575.56616,
+        575.67944],
+       [  0.     ,   0.     ,   0.     , ..., 575.9939 , 575.6853 ,
+        575.6677 ]], dtype=float32)
+Coordinates:
+    number     int32 ...
+    step       timedelta64[ns] ...
+    surface    float64 ...
+  * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.014078799998969771,6.2,0.16796875,21,TemporalRangeAggregation
+"<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
+array([[486.21262, 486.34933, 486.47433, ...,   0.     ,   0.     ,
+          0.     ],
+       [486.96262, 487.07004, 487.1794 , ...,   0.     ,   0.     ,
+          0.     ],
+       [487.78683, 487.91183, 488.01926, ...,   0.     ,   0.     ,
+          0.     ],
+       ...,
+       [  0.     ,   0.     ,   0.     , ..., 575.5427 , 575.5408 ,
+        575.6052 ],
+       [  0.     ,   0.     ,   0.     , ..., 575.8142 , 575.56616,
+        575.67944],
+       [  0.     ,   0.     ,   0.     , ..., 575.9939 , 575.6853 ,
+        575.6677 ]], dtype=float32)
+Coordinates:
+    number     int32 ...
+    step       timedelta64[ns] ...
+    surface    float64 ...
+  * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.01405440000235103,-6.2,5.26953125,22,TemporalRangeAggregation
+"<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
+array([[486.21262, 486.34933, 486.47433, ...,   0.     ,   0.     ,
+          0.     ],
+       [486.96262, 487.07004, 487.1794 , ...,   0.     ,   0.     ,
+          0.     ],
+       [487.78683, 487.91183, 488.01926, ...,   0.     ,   0.     ,
+          0.     ],
+       ...,
+       [  0.     ,   0.     ,   0.     , ..., 575.5427 , 575.5408 ,
+        575.6052 ],
+       [  0.     ,   0.     ,   0.     , ..., 575.8142 , 575.56616,
+        575.67944],
+       [  0.     ,   0.     ,   0.     , ..., 575.9939 , 575.6853 ,
+        575.6677 ]], dtype=float32)
+Coordinates:
+    number     int32 ...
+    step       timedelta64[ns] ...
+    surface    float64 ...
+  * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.015004599998064805,-2.8999999999999995,0.03125,23,TemporalRangeAggregation
+"<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
+array([[243.10631, 243.17467, 243.23717, ...,       nan,       nan,
+              nan],
+       [243.48131, 243.53502, 243.5897 , ...,       nan,       nan,
+              nan],
+       [243.89342, 243.95592, 244.00963, ...,       nan,       nan,
+              nan],
+       ...,
+       [      nan,       nan,       nan, ..., 287.77136, 287.7704 ,
+        287.8026 ],
+       [      nan,       nan,       nan, ..., 287.9071 , 287.78308,
+        287.83972],
+       [      nan,       nan,       nan, ..., 287.99695, 287.84265,
+        287.83386]], dtype=float32)
+Coordinates:
+    number     int32 ...
+    step       timedelta64[ns] ...
+    surface    float64 ...
+  * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.01543820000370033,-15.8,0.23046875,24,TemporalRangeAggregation
+"<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
+array([[243.10631, 243.17467, 243.23717, ...,       nan,       nan,
+              nan],
+       [243.48131, 243.53502, 243.5897 , ...,       nan,       nan,
+              nan],
+       [243.89342, 243.95592, 244.00963, ...,       nan,       nan,
+              nan],
+       ...,
+       [      nan,       nan,       nan, ..., 287.77136, 287.7704 ,
+        287.8026 ],
+       [      nan,       nan,       nan, ..., 287.9071 , 287.78308,
+        287.83972],
+       [      nan,       nan,       nan, ..., 287.99695, 287.84265,
+        287.83386]], dtype=float32)
+Coordinates:
+    number     int32 ...
+    step       timedelta64[ns] ...
+    surface    float64 ...
+  * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.015606800006935373,6.2,0.80078125,25,TemporalRangeAggregation
+"<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
+array([[486.21262, 486.34933, 486.47433, ...,   0.     ,   0.     ,
+          0.     ],
+       [486.96262, 487.07004, 487.1794 , ...,   0.     ,   0.     ,
+          0.     ],
+       [487.78683, 487.91183, 488.01926, ...,   0.     ,   0.     ,
+          0.     ],
+       ...,
+       [  0.     ,   0.     ,   0.     , ..., 575.5427 , 575.5408 ,
+        575.6052 ],
+       [  0.     ,   0.     ,   0.     , ..., 575.8142 , 575.56616,
+        575.67944],
+       [  0.     ,   0.     ,   0.     , ..., 575.9939 , 575.6853 ,
+        575.6677 ]], dtype=float32)
+Coordinates:
+    number     int32 ...
+    step       timedelta64[ns] ...
+    surface    float64 ...
+  * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.013577999998233281,7.7,3.61328125,26,TemporalRangeAggregation
+"<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
+array([[243.10631, 243.17467, 243.23717, ...,       nan,       nan,
+              nan],
+       [243.48131, 243.53502, 243.5897 , ...,       nan,       nan,
+              nan],
+       [243.89342, 243.95592, 244.00963, ...,       nan,       nan,
+              nan],
+       ...,
+       [      nan,       nan,       nan, ..., 287.77136, 287.7704 ,
+        287.8026 ],
+       [      nan,       nan,       nan, ..., 287.9071 , 287.78308,
+        287.83972],
+       [      nan,       nan,       nan, ..., 287.99695, 287.84265,
+        287.83386]], dtype=float32)
+Coordinates:
+    number     int32 ...
+    step       timedelta64[ns] ...
+    surface    float64 ...
+  * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.014907999997376464,6.2,0.37890625,27,TemporalRangeAggregation
+"<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
+array([[486.21262, 486.34933, 486.47433, ...,   0.     ,   0.     ,
+          0.     ],
+       [486.96262, 487.07004, 487.1794 , ...,   0.     ,   0.     ,
+          0.     ],
+       [487.78683, 487.91183, 488.01926, ...,   0.     ,   0.     ,
+          0.     ],
+       ...,
+       [  0.     ,   0.     ,   0.     , ..., 575.5427 , 575.5408 ,
+        575.6052 ],
+       [  0.     ,   0.     ,   0.     , ..., 575.8142 , 575.56616,
+        575.67944],
+       [  0.     ,   0.     ,   0.     , ..., 575.9939 , 575.6853 ,
+        575.6677 ]], dtype=float32)
+Coordinates:
+    number     int32 ...
+    step       timedelta64[ns] ...
+    surface    float64 ...
+  * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.01450219999969704,0.0,0.03515625,28,TemporalRangeAggregation
+"<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
+array([[486.21262, 486.34933, 486.47433, ...,   0.     ,   0.     ,
+          0.     ],
+       [486.96262, 487.07004, 487.1794 , ...,   0.     ,   0.     ,
+          0.     ],
+       [487.78683, 487.91183, 488.01926, ...,   0.     ,   0.     ,
+          0.     ],
+       ...,
+       [  0.     ,   0.     ,   0.     , ..., 575.5427 , 575.5408 ,
+        575.6052 ],
+       [  0.     ,   0.     ,   0.     , ..., 575.8142 , 575.56616,
+        575.67944],
+       [  0.     ,   0.     ,   0.     , ..., 575.9939 , 575.6853 ,
+        575.6677 ]], dtype=float32)
+Coordinates:
+    number     int32 ...
+    step       timedelta64[ns] ...
+    surface    float64 ...
+  * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.013900199999625329,10.0,6.62109375,29,TemporalRangeAggregation
+"<xarray.DataArray 't2m' (time: 264, latitude: 0, longitude: 701)>
+[0 values with dtype=float32]
+Coordinates:
+    number      int32 ...
+  * time        (time) datetime64[ns] 2000-01-01 2000-02-01 ... 2021-12-01
+    step        timedelta64[ns] ...
+    surface     float64 ...
+  * latitude    (latitude) float64 
+  * longitude   (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0
+    valid_time  (time) datetime64[ns] ...
+Attributes: (12/30)
+    GRIB_paramId:                             167
+    GRIB_dataType:                            fc
+    GRIB_numberOfPoints:                      351201
+    GRIB_typeOfLevel:                         surface
+    GRIB_stepUnits:                           1
+    GRIB_stepType:                            avgid
+    ...                                       ...
+    GRIB_shortName:                           2t
+    GRIB_totalNumber:                         0
+    GRIB_units:                               K
+    long_name:                                2 metre temperature
+    units:                                    K
+    standard_name:                            unknown",0.001473600001190789,-16.7,-0.05078125,30,SpatialSubsetExtraction
+"<xarray.DataArray 't2m' (time: 264, latitude: 0, longitude: 0)>
+[0 values with dtype=float32]
+Coordinates:
+    number      int32 ...
+  * time        (time) datetime64[ns] 2000-01-01 2000-02-01 ... 2021-12-01
+    step        timedelta64[ns] ...
+    surface     float64 ...
+  * latitude    (latitude) float64 
+  * longitude   (longitude) float64 
+    valid_time  (time) datetime64[ns] ...
+Attributes: (12/30)
+    GRIB_paramId:                             167
+    GRIB_dataType:                            fc
+    GRIB_numberOfPoints:                      351201
+    GRIB_typeOfLevel:                         surface
+    GRIB_stepUnits:                           1
+    GRIB_stepType:                            avgid
+    ...                                       ...
+    GRIB_shortName:                           2t
+    GRIB_totalNumber:                         0
+    GRIB_units:                               K
+    long_name:                                2 metre temperature
+    units:                                    K
+    standard_name:                            unknown",0.0005233000047155656,0.0,0.0,31,SpatialSubsetExtraction
+"<xarray.DataArray 't2m' (time: 264, latitude: 0, longitude: 438)>
+[0 values with dtype=float32]
+Coordinates:
+    number      int32 ...
+  * time        (time) datetime64[ns] 2000-01-01 2000-02-01 ... 2021-12-01
+    step        timedelta64[ns] ...
+    surface     float64 ...
+  * latitude    (latitude) float64 
+  * longitude   (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 18.5 18.6 18.7
+    valid_time  (time) datetime64[ns] ...
+Attributes: (12/30)
+    GRIB_paramId:                             167
+    GRIB_dataType:                            fc
+    GRIB_numberOfPoints:                      351201
+    GRIB_typeOfLevel:                         surface
+    GRIB_stepUnits:                           1
+    GRIB_stepType:                            avgid
+    ...                                       ...
+    GRIB_shortName:                           2t
+    GRIB_totalNumber:                         0
+    GRIB_units:                               K
+    long_name:                                2 metre temperature
+    units:                                    K
+    standard_name:                            unknown",0.0004961000013281591,0.0,0.00390625,32,SpatialSubsetExtraction
+"<xarray.DataArray 't2m' (time: 264, latitude: 0, longitude: 214)>
+[0 values with dtype=float32]
+Coordinates:
+    number      int32 ...
+  * time        (time) datetime64[ns] 2000-01-01 2000-02-01 ... 2021-12-01
+    step        timedelta64[ns] ...
+    surface     float64 ...
+  * latitude    (latitude) float64 
+  * longitude   (longitude) float64 23.7 23.8 23.9 24.0 ... 44.7 44.8 44.9 45.0
+    valid_time  (time) datetime64[ns] ...
+Attributes: (12/30)
+    GRIB_paramId:                             167
+    GRIB_dataType:                            fc
+    GRIB_numberOfPoints:                      351201
+    GRIB_typeOfLevel:                         surface
+    GRIB_stepUnits:                           1
+    GRIB_stepType:                            avgid
+    ...                                       ...
+    GRIB_shortName:                           2t
+    GRIB_totalNumber:                         0
+    GRIB_units:                               K
+    long_name:                                2 metre temperature
+    units:                                    K
+    standard_name:                            unknown",0.0004908999981125817,0.0,0.0,33,SpatialSubsetExtraction
+"<xarray.DataArray 't2m' (time: 264, latitude: 0, longitude: 701)>
+[0 values with dtype=float32]
+Coordinates:
+    number      int32 ...
+  * time        (time) datetime64[ns] 2000-01-01 2000-02-01 ... 2021-12-01
+    step        timedelta64[ns] ...
+    surface     float64 ...
+  * latitude    (latitude) float64 
+  * longitude   (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0
+    valid_time  (time) datetime64[ns] ...
+Attributes: (12/30)
+    GRIB_paramId:                             167
+    GRIB_dataType:                            fc
+    GRIB_numberOfPoints:                      351201
+    GRIB_typeOfLevel:                         surface
+    GRIB_stepUnits:                           1
+    GRIB_stepType:                            avgid
+    ...                                       ...
+    GRIB_shortName:                           2t
+    GRIB_totalNumber:                         0
+    GRIB_units:                               K
+    long_name:                                2 metre temperature
+    units:                                    K
+    standard_name:                            unknown",0.0004959999932907522,0.0,0.0,34,SpatialSubsetExtraction
+"<xarray.DataArray 't2m' (time: 264, latitude: 0, longitude: 701)>
+[0 values with dtype=float32]
+Coordinates:
+    number      int32 ...
+  * time        (time) datetime64[ns] 2000-01-01 2000-02-01 ... 2021-12-01
+    step        timedelta64[ns] ...
+    surface     float64 ...
+  * latitude    (latitude) float64 
+  * longitude   (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0
+    valid_time  (time) datetime64[ns] ...
+Attributes: (12/30)
+    GRIB_paramId:                             167
+    GRIB_dataType:                            fc
+    GRIB_numberOfPoints:                      351201
+    GRIB_typeOfLevel:                         surface
+    GRIB_stepUnits:                           1
+    GRIB_stepType:                            avgid
+    ...                                       ...
+    GRIB_shortName:                           2t
+    GRIB_totalNumber:                         0
+    GRIB_units:                               K
+    long_name:                                2 metre temperature
+    units:                                    K
+    standard_name:                            unknown",0.00048580000293441117,8.3,0.015625,35,SpatialSubsetExtraction
+"<xarray.DataArray 't2m' (time: 264, latitude: 0, longitude: 688)>
+[0 values with dtype=float32]
+Coordinates:
+    number      int32 ...
+  * time        (time) datetime64[ns] 2000-01-01 2000-02-01 ... 2021-12-01
+    step        timedelta64[ns] ...
+    surface     float64 ...
+  * latitude    (latitude) float64 
+  * longitude   (longitude) float64 -23.7 -23.6 -23.5 -23.4 ... 44.8 44.9 45.0
+    valid_time  (time) datetime64[ns] ...
+Attributes: (12/30)
+    GRIB_paramId:                             167
+    GRIB_dataType:                            fc
+    GRIB_numberOfPoints:                      351201
+    GRIB_typeOfLevel:                         surface
+    GRIB_stepUnits:                           1
+    GRIB_stepType:                            avgid
+    ...                                       ...
+    GRIB_shortName:                           2t
+    GRIB_totalNumber:                         0
+    GRIB_units:                               K
+    long_name:                                2 metre temperature
+    units:                                    K
+    standard_name:                            unknown",0.0004900999992969446,0.0,0.01953125,36,SpatialSubsetExtraction
+"<xarray.DataArray 't2m' (time: 264, latitude: 0, longitude: 701)>
+[0 values with dtype=float32]
+Coordinates:
+    number      int32 ...
+  * time        (time) datetime64[ns] 2000-01-01 2000-02-01 ... 2021-12-01
+    step        timedelta64[ns] ...
+    surface     float64 ...
+  * latitude    (latitude) float64 
+  * longitude   (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0
+    valid_time  (time) datetime64[ns] ...
+Attributes: (12/30)
+    GRIB_paramId:                             167
+    GRIB_dataType:                            fc
+    GRIB_numberOfPoints:                      351201
+    GRIB_typeOfLevel:                         surface
+    GRIB_stepUnits:                           1
+    GRIB_stepType:                            avgid
+    ...                                       ...
+    GRIB_shortName:                           2t
+    GRIB_totalNumber:                         0
+    GRIB_units:                               K
+    long_name:                                2 metre temperature
+    units:                                    K
+    standard_name:                            unknown",0.0004975000047124922,-22.2,0.0,37,SpatialSubsetExtraction
+"<xarray.DataArray 't2m' (time: 264, latitude: 0, longitude: 701)>
+[0 values with dtype=float32]
+Coordinates:
+    number      int32 ...
+  * time        (time) datetime64[ns] 2000-01-01 2000-02-01 ... 2021-12-01
+    step        timedelta64[ns] ...
+    surface     float64 ...
+  * latitude    (latitude) float64 
+  * longitude   (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0
+    valid_time  (time) datetime64[ns] ...
+Attributes: (12/30)
+    GRIB_paramId:                             167
+    GRIB_dataType:                            fc
+    GRIB_numberOfPoints:                      351201
+    GRIB_typeOfLevel:                         surface
+    GRIB_stepUnits:                           1
+    GRIB_stepType:                            avgid
+    ...                                       ...
+    GRIB_shortName:                           2t
+    GRIB_totalNumber:                         0
+    GRIB_units:                               K
+    long_name:                                2 metre temperature
+    units:                                    K
+    standard_name:                            unknown",0.0005321999997249804,0.0,0.0,38,SpatialSubsetExtraction
+"<xarray.DataArray 't2m' (time: 264, latitude: 0, longitude: 425)>
+[0 values with dtype=float32]
+Coordinates:
+    number      int32 ...
+  * time        (time) datetime64[ns] 2000-01-01 2000-02-01 ... 2021-12-01
+    step        timedelta64[ns] ...
+    surface     float64 ...
+  * latitude    (latitude) float64 
+  * longitude   (longitude) float64 2.6 2.7 2.8 2.9 3.0 ... 44.7 44.8 44.9 45.0
+    valid_time  (time) datetime64[ns] ...
+Attributes: (12/30)
+    GRIB_paramId:                             167
+    GRIB_dataType:                            fc
+    GRIB_numberOfPoints:                      351201
+    GRIB_typeOfLevel:                         surface
+    GRIB_stepUnits:                           1
+    GRIB_stepType:                            avgid
+    ...                                       ...
+    GRIB_shortName:                           2t
+    GRIB_totalNumber:                         0
+    GRIB_units:                               K
+    long_name:                                2 metre temperature
+    units:                                    K
+    standard_name:                            unknown",0.0004957999990438111,6.2,0.015625,39,SpatialSubsetExtraction
+"<xarray.DataArray 't2m' (time: 264, latitude: 0, longitude: 701)>
+[0 values with dtype=float32]
+Coordinates:
+    number      int32 ...
+  * time        (time) datetime64[ns] 2000-01-01 2000-02-01 ... 2021-12-01
+    step        timedelta64[ns] ...
+    surface     float64 ...
+  * latitude    (latitude) float64 
+  * longitude   (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0
+    valid_time  (time) datetime64[ns] ...
+Attributes: (12/30)
+    GRIB_paramId:                             167
+    GRIB_dataType:                            fc
+    GRIB_numberOfPoints:                      351201
+    GRIB_typeOfLevel:                         surface
+    GRIB_stepUnits:                           1
+    GRIB_stepType:                            avgid
+    ...                                       ...
+    GRIB_shortName:                           2t
+    GRIB_totalNumber:                         0
+    GRIB_units:                               K
+    long_name:                                2 metre temperature
+    units:                                    K
+    standard_name:                            unknown",0.0005043999990448356,0.0,-10.28515625,40,SpatialSubsetExtraction
+"<xarray.DataArray 't2m' (time: 264, latitude: 0, longitude: 26)>
+[0 values with dtype=float32]
+Coordinates:
+    number      int32 ...
+  * time        (time) datetime64[ns] 2000-01-01 2000-02-01 ... 2021-12-01
+    step        timedelta64[ns] ...
+    surface     float64 ...
+  * latitude    (latitude) float64 
+  * longitude   (longitude) float64 10.4 10.5 10.6 10.7 ... 12.6 12.7 12.8 12.9
+    valid_time  (time) datetime64[ns] ...
+Attributes: (12/30)
+    GRIB_paramId:                             167
+    GRIB_dataType:                            fc
+    GRIB_numberOfPoints:                      351201
+    GRIB_typeOfLevel:                         surface
+    GRIB_stepUnits:                           1
+    GRIB_stepType:                            avgid
+    ...                                       ...
+    GRIB_shortName:                           2t
+    GRIB_totalNumber:                         0
+    GRIB_units:                               K
+    long_name:                                2 metre temperature
+    units:                                    K
+    standard_name:                            unknown",0.0005085000011604279,6.2,0.00390625,41,SpatialSubsetExtraction
+"<xarray.DataArray 't2m' (time: 264, latitude: 0, longitude: 0)>
+[0 values with dtype=float32]
+Coordinates:
+    number      int32 ...
+  * time        (time) datetime64[ns] 2000-01-01 2000-02-01 ... 2021-12-01
+    step        timedelta64[ns] ...
+    surface     float64 ...
+  * latitude    (latitude) float64 
+  * longitude   (longitude) float64 
+    valid_time  (time) datetime64[ns] ...
+Attributes: (12/30)
+    GRIB_paramId:                             167
+    GRIB_dataType:                            fc
+    GRIB_numberOfPoints:                      351201
+    GRIB_typeOfLevel:                         surface
+    GRIB_stepUnits:                           1
+    GRIB_stepType:                            avgid
+    ...                                       ...
+    GRIB_shortName:                           2t
+    GRIB_totalNumber:                         0
+    GRIB_units:                               K
+    long_name:                                2 metre temperature
+    units:                                    K
+    standard_name:                            unknown",0.000513300001330208,0.0,0.00390625,42,SpatialSubsetExtraction
+"<xarray.DataArray 't2m' (time: 264, latitude: 0, longitude: 701)>
+[0 values with dtype=float32]
+Coordinates:
+    number      int32 ...
+  * time        (time) datetime64[ns] 2000-01-01 2000-02-01 ... 2021-12-01
+    step        timedelta64[ns] ...
+    surface     float64 ...
+  * latitude    (latitude) float64 
+  * longitude   (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0
+    valid_time  (time) datetime64[ns] ...
+Attributes: (12/30)
+    GRIB_paramId:                             167
+    GRIB_dataType:                            fc
+    GRIB_numberOfPoints:                      351201
+    GRIB_typeOfLevel:                         surface
+    GRIB_stepUnits:                           1
+    GRIB_stepType:                            avgid
+    ...                                       ...
+    GRIB_shortName:                           2t
+    GRIB_totalNumber:                         0
+    GRIB_units:                               K
+    long_name:                                2 metre temperature
+    units:                                    K
+    standard_name:                            unknown",0.0004924000022583641,9.1,0.00390625,43,SpatialSubsetExtraction
+"<xarray.DataArray 't2m' (time: 264, latitude: 0, longitude: 0)>
+[0 values with dtype=float32]
+Coordinates:
+    number      int32 ...
+  * time        (time) datetime64[ns] 2000-01-01 2000-02-01 ... 2021-12-01
+    step        timedelta64[ns] ...
+    surface     float64 ...
+  * latitude    (latitude) float64 
+  * longitude   (longitude) float64 
+    valid_time  (time) datetime64[ns] ...
+Attributes: (12/30)
+    GRIB_paramId:                             167
+    GRIB_dataType:                            fc
+    GRIB_numberOfPoints:                      351201
+    GRIB_typeOfLevel:                         surface
+    GRIB_stepUnits:                           1
+    GRIB_stepType:                            avgid
+    ...                                       ...
+    GRIB_shortName:                           2t
+    GRIB_totalNumber:                         0
+    GRIB_units:                               K
+    long_name:                                2 metre temperature
+    units:                                    K
+    standard_name:                            unknown",0.0005082999996375293,0.0,0.0,44,SpatialSubsetExtraction
+"<xarray.DataArray 't2m' (time: 264, latitude: 0, longitude: 0)>
+[0 values with dtype=float32]
+Coordinates:
+    number      int32 ...
+  * time        (time) datetime64[ns] 2000-01-01 2000-02-01 ... 2021-12-01
+    step        timedelta64[ns] ...
+    surface     float64 ...
+  * latitude    (latitude) float64 
+  * longitude   (longitude) float64 
+    valid_time  (time) datetime64[ns] ...
+Attributes: (12/30)
+    GRIB_paramId:                             167
+    GRIB_dataType:                            fc
+    GRIB_numberOfPoints:                      351201
+    GRIB_typeOfLevel:                         surface
+    GRIB_stepUnits:                           1
+    GRIB_stepType:                            avgid
+    ...                                       ...
+    GRIB_shortName:                           2t
+    GRIB_totalNumber:                         0
+    GRIB_units:                               K
+    long_name:                                2 metre temperature
+    units:                                    K
+    standard_name:                            unknown",0.0005208000002312474,10.0,0.0,45,SpatialSubsetExtraction
+"<xarray.DataArray 't2m' (time: 264, latitude: 0, longitude: 135)>
+[0 values with dtype=float32]
+Coordinates:
+    number      int32 ...
+  * time        (time) datetime64[ns] 2000-01-01 2000-02-01 ... 2021-12-01
+    step        timedelta64[ns] ...
+    surface     float64 ...
+  * latitude    (latitude) float64 
+  * longitude   (longitude) float64 -25.0 -24.9 -24.8 ... -11.8 -11.7 -11.6
+    valid_time  (time) datetime64[ns] ...
+Attributes: (12/30)
+    GRIB_paramId:                             167
+    GRIB_dataType:                            fc
+    GRIB_numberOfPoints:                      351201
+    GRIB_typeOfLevel:                         surface
+    GRIB_stepUnits:                           1
+    GRIB_stepType:                            avgid
+    ...                                       ...
+    GRIB_shortName:                           2t
+    GRIB_totalNumber:                         0
+    GRIB_units:                               K
+    long_name:                                2 metre temperature
+    units:                                    K
+    standard_name:                            unknown",0.0005477000013343059,0.0,0.0,46,SpatialSubsetExtraction
+"<xarray.DataArray 't2m' (time: 264, latitude: 0, longitude: 0)>
+[0 values with dtype=float32]
+Coordinates:
+    number      int32 ...
+  * time        (time) datetime64[ns] 2000-01-01 2000-02-01 ... 2021-12-01
+    step        timedelta64[ns] ...
+    surface     float64 ...
+  * latitude    (latitude) float64 
+  * longitude   (longitude) float64 
+    valid_time  (time) datetime64[ns] ...
+Attributes: (12/30)
+    GRIB_paramId:                             167
+    GRIB_dataType:                            fc
+    GRIB_numberOfPoints:                      351201
+    GRIB_typeOfLevel:                         surface
+    GRIB_stepUnits:                           1
+    GRIB_stepType:                            avgid
+    ...                                       ...
+    GRIB_shortName:                           2t
+    GRIB_totalNumber:                         0
+    GRIB_units:                               K
+    long_name:                                2 metre temperature
+    units:                                    K
+    standard_name:                            unknown",0.0004808000012417324,0.0,-0.12890625,47,SpatialSubsetExtraction
+"<xarray.DataArray 't2m' (time: 264, latitude: 0, longitude: 543)>
+[0 values with dtype=float32]
+Coordinates:
+    number      int32 ...
+  * time        (time) datetime64[ns] 2000-01-01 2000-02-01 ... 2021-12-01
+    step        timedelta64[ns] ...
+    surface     float64 ...
+  * latitude    (latitude) float64 
+  * longitude   (longitude) float64 -9.2 -9.1 -9.0 -8.9 ... 44.7 44.8 44.9 45.0
+    valid_time  (time) datetime64[ns] ...
+Attributes: (12/30)
+    GRIB_paramId:                             167
+    GRIB_dataType:                            fc
+    GRIB_numberOfPoints:                      351201
+    GRIB_typeOfLevel:                         surface
+    GRIB_stepUnits:                           1
+    GRIB_stepType:                            avgid
+    ...                                       ...
+    GRIB_shortName:                           2t
+    GRIB_totalNumber:                         0
+    GRIB_units:                               K
+    long_name:                                2 metre temperature
+    units:                                    K
+    standard_name:                            unknown",0.0006036000049789436,0.0,0.11328125,48,SpatialSubsetExtraction
+"<xarray.DataArray 't2m' (time: 264, latitude: 0, longitude: 198)>
+[0 values with dtype=float32]
+Coordinates:
+    number      int32 ...
+  * time        (time) datetime64[ns] 2000-01-01 2000-02-01 ... 2021-12-01
+    step        timedelta64[ns] ...
+    surface     float64 ...
+  * latitude    (latitude) float64 
+  * longitude   (longitude) float64 25.3 25.4 25.5 25.6 ... 44.7 44.8 44.9 45.0
+    valid_time  (time) datetime64[ns] ...
+Attributes: (12/30)
+    GRIB_paramId:                             167
+    GRIB_dataType:                            fc
+    GRIB_numberOfPoints:                      351201
+    GRIB_typeOfLevel:                         surface
+    GRIB_stepUnits:                           1
+    GRIB_stepType:                            avgid
+    ...                                       ...
+    GRIB_shortName:                           2t
+    GRIB_totalNumber:                         0
+    GRIB_units:                               K
+    long_name:                                2 metre temperature
+    units:                                    K
+    standard_name:                            unknown",0.0005061000047135167,0.0,-0.0078125,49,SpatialSubsetExtraction
+"<xarray.DataArray 't2m' (time: 264, latitude: 0, longitude: 701)>
+[0 values with dtype=float32]
+Coordinates:
+    number      int32 ...
+  * time        (time) datetime64[ns] 2000-01-01 2000-02-01 ... 2021-12-01
+    step        timedelta64[ns] ...
+    surface     float64 ...
+  * latitude    (latitude) float64 
+  * longitude   (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0
+    valid_time  (time) datetime64[ns] ...
+Attributes: (12/30)
+    GRIB_paramId:                             167
+    GRIB_dataType:                            fc
+    GRIB_numberOfPoints:                      351201
+    GRIB_typeOfLevel:                         surface
+    GRIB_stepUnits:                           1
+    GRIB_stepType:                            avgid
+    ...                                       ...
+    GRIB_shortName:                           2t
+    GRIB_totalNumber:                         0
+    GRIB_units:                               K
+    long_name:                                2 metre temperature
+    units:                                    K
+    standard_name:                            unknown",0.0005201000021770597,0.0,-0.00390625,50,SpatialSubsetExtraction
+"<xarray.DataArray 't2m' (time: 264, latitude: 0, longitude: 0)>
+[0 values with dtype=float32]
+Coordinates:
+    number      int32 ...
+  * time        (time) datetime64[ns] 2000-01-01 2000-02-01 ... 2021-12-01
+    step        timedelta64[ns] ...
+    surface     float64 ...
+  * latitude    (latitude) float64 
+  * longitude   (longitude) float64 
+    valid_time  (time) datetime64[ns] ...
+Attributes: (12/30)
+    GRIB_paramId:                             167
+    GRIB_dataType:                            fc
+    GRIB_numberOfPoints:                      351201
+    GRIB_typeOfLevel:                         surface
+    GRIB_stepUnits:                           1
+    GRIB_stepType:                            avgid
+    ...                                       ...
+    GRIB_shortName:                           2t
+    GRIB_totalNumber:                         0
+    GRIB_units:                               K
+    long_name:                                2 metre temperature
+    units:                                    K
+    standard_name:                            unknown",0.000534999999217689,0.0,-0.01953125,51,SpatialSubsetExtraction
+"<xarray.DataArray 't2m' (time: 264, latitude: 0, longitude: 186)>
+[0 values with dtype=float32]
+Coordinates:
+    number      int32 ...
+  * time        (time) datetime64[ns] 2000-01-01 2000-02-01 ... 2021-12-01
+    step        timedelta64[ns] ...
+    surface     float64 ...
+  * latitude    (latitude) float64 
+  * longitude   (longitude) float64 -8.9 -8.8 -8.7 -8.6 -8.5 ... 9.3 9.4 9.5 9.6
+    valid_time  (time) datetime64[ns] ...
+Attributes: (12/30)
+    GRIB_paramId:                             167
+    GRIB_dataType:                            fc
+    GRIB_numberOfPoints:                      351201
+    GRIB_typeOfLevel:                         surface
+    GRIB_stepUnits:                           1
+    GRIB_stepType:                            avgid
+    ...                                       ...
+    GRIB_shortName:                           2t
+    GRIB_totalNumber:                         0
+    GRIB_units:                               K
+    long_name:                                2 metre temperature
+    units:                                    K
+    standard_name:                            unknown",0.0007908000043244101,9.1,0.0,52,SpatialSubsetExtraction
+"<xarray.DataArray 't2m' (time: 264, latitude: 0, longitude: 701)>
+[0 values with dtype=float32]
+Coordinates:
+    number      int32 ...
+  * time        (time) datetime64[ns] 2000-01-01 2000-02-01 ... 2021-12-01
+    step        timedelta64[ns] ...
+    surface     float64 ...
+  * latitude    (latitude) float64 
+  * longitude   (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0
+    valid_time  (time) datetime64[ns] ...
+Attributes: (12/30)
+    GRIB_paramId:                             167
+    GRIB_dataType:                            fc
+    GRIB_numberOfPoints:                      351201
+    GRIB_typeOfLevel:                         surface
+    GRIB_stepUnits:                           1
+    GRIB_stepType:                            avgid
+    ...                                       ...
+    GRIB_shortName:                           2t
+    GRIB_totalNumber:                         0
+    GRIB_units:                               K
+    long_name:                                2 metre temperature
+    units:                                    K
+    standard_name:                            unknown",0.0005541999998968095,0.0,-0.19921875,53,SpatialSubsetExtraction
+"<xarray.DataArray 't2m' (time: 264, latitude: 0, longitude: 701)>
+[0 values with dtype=float32]
+Coordinates:
+    number      int32 ...
+  * time        (time) datetime64[ns] 2000-01-01 2000-02-01 ... 2021-12-01
+    step        timedelta64[ns] ...
+    surface     float64 ...
+  * latitude    (latitude) float64 
+  * longitude   (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0
+    valid_time  (time) datetime64[ns] ...
+Attributes: (12/30)
+    GRIB_paramId:                             167
+    GRIB_dataType:                            fc
+    GRIB_numberOfPoints:                      351201
+    GRIB_typeOfLevel:                         surface
+    GRIB_stepUnits:                           1
+    GRIB_stepType:                            avgid
+    ...                                       ...
+    GRIB_shortName:                           2t
+    GRIB_totalNumber:                         0
+    GRIB_units:                               K
+    long_name:                                2 metre temperature
+    units:                                    K
+    standard_name:                            unknown",0.0004933000018354505,0.0,-0.00390625,54,SpatialSubsetExtraction
+"<xarray.Dataset>
+Dimensions:     (time: 264, latitude: 501, longitude: 701)
+Coordinates:
+    number      int32 ...
+  * time        (time) datetime64[ns] 2000-01-01 2000-02-01 ... 2021-12-01
+    step        timedelta64[ns] ...
+    surface     float64 ...
+  * latitude    (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude   (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0
+    valid_time  (time) datetime64[ns] ...
+Data variables:
+    t2m         (time, latitude, longitude) float32 ...
+Attributes:
+    GRIB_edition:            1
+    GRIB_centre:             ecmf
+    GRIB_centreDescription:  European Centre for Medium-Range Weather Forecasts
+    GRIB_subCentre:          0
+    Conventions:             CF-1.7
+    institution:             European Centre for Medium-Range Weather Forecasts
+    history:                 2024-02-14T09:02 GRIB to CDM+CF via cfgrib-0.9.1...",1.5338368000011542,3.0,341.57421875,55,TemporalDataModification
+"<xarray.Dataset>
+Dimensions:     (time: 264, latitude: 501, longitude: 701)
+Coordinates:
+    number      int32 ...
+  * time        (time) datetime64[ns] 2000-01-01 2000-02-01 ... 2021-12-01
+    step        timedelta64[ns] ...
+    surface     float64 ...
+  * latitude    (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude   (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0
+    valid_time  (time) datetime64[ns] ...
+Data variables:
+    t2m         (time, latitude, longitude) float32 ...
+Attributes:
+    GRIB_edition:            1
+    GRIB_centre:             ecmf
+    GRIB_centreDescription:  European Centre for Medium-Range Weather Forecasts
+    GRIB_subCentre:          0
+    Conventions:             CF-1.7
+    institution:             European Centre for Medium-Range Weather Forecasts
+    history:                 2024-02-14T09:02 GRIB to CDM+CF via cfgrib-0.9.1...",0.01741500000207452,5.6,-5.2265625,56,TemporalDataModification
+"<xarray.Dataset>
+Dimensions:     (time: 264, latitude: 501, longitude: 701)
+Coordinates:
+    number      int32 ...
+  * time        (time) datetime64[ns] 2000-01-01 2000-02-01 ... 2021-12-01
+    step        timedelta64[ns] ...
+    surface     float64 ...
+  * latitude    (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude   (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0
+    valid_time  (time) datetime64[ns] ...
+Data variables:
+    t2m         (time, latitude, longitude) float32 ...
+Attributes:
+    GRIB_edition:            1
+    GRIB_centre:             ecmf
+    GRIB_centreDescription:  European Centre for Medium-Range Weather Forecasts
+    GRIB_subCentre:          0
+    Conventions:             CF-1.7
+    institution:             European Centre for Medium-Range Weather Forecasts
+    history:                 2024-02-14T09:02 GRIB to CDM+CF via cfgrib-0.9.1...",0.019042899999476504,0.0,2.49609375,57,TemporalDataModification
+"<xarray.Dataset>
+Dimensions:     (time: 264, latitude: 501, longitude: 701)
+Coordinates:
+    number      int32 ...
+  * time        (time) datetime64[ns] 2000-01-01 2000-02-01 ... 2021-12-01
+    step        timedelta64[ns] ...
+    surface     float64 ...
+  * latitude    (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude   (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0
+    valid_time  (time) datetime64[ns] ...
+Data variables:
+    t2m         (time, latitude, longitude) float32 ...
+Attributes:
+    GRIB_edition:            1
+    GRIB_centre:             ecmf
+    GRIB_centreDescription:  European Centre for Medium-Range Weather Forecasts
+    GRIB_subCentre:          0
+    Conventions:             CF-1.7
+    institution:             European Centre for Medium-Range Weather Forecasts
+    history:                 2024-02-14T09:02 GRIB to CDM+CF via cfgrib-0.9.1...",0.018153700002585538,-11.400000000000002,9.13671875,58,TemporalDataModification
+"<xarray.Dataset>
+Dimensions:     (time: 264, latitude: 501, longitude: 701)
+Coordinates:
+    number      int32 ...
+  * time        (time) datetime64[ns] 2000-01-01 2000-02-01 ... 2021-12-01
+    step        timedelta64[ns] ...
+    surface     float64 ...
+  * latitude    (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude   (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0
+    valid_time  (time) datetime64[ns] ...
+Data variables:
+    t2m         (time, latitude, longitude) float32 ...
+Attributes:
+    GRIB_edition:            1
+    GRIB_centre:             ecmf
+    GRIB_centreDescription:  European Centre for Medium-Range Weather Forecasts
+    GRIB_subCentre:          0
+    Conventions:             CF-1.7
+    institution:             European Centre for Medium-Range Weather Forecasts
+    history:                 2024-02-14T09:02 GRIB to CDM+CF via cfgrib-0.9.1...",0.014717199999722652,9.1,1.2890625,59,TemporalDataModification
+"<xarray.Dataset>
+Dimensions:     (time: 264, latitude: 501, longitude: 701)
+Coordinates:
+    number      int32 ...
+  * time        (time) datetime64[ns] 2000-01-01 2000-02-01 ... 2021-12-01
+    step        timedelta64[ns] ...
+    surface     float64 ...
+  * latitude    (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude   (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0
+    valid_time  (time) datetime64[ns] ...
+Data variables:
+    t2m         (time, latitude, longitude) float32 ...
+Attributes:
+    GRIB_edition:            1
+    GRIB_centre:             ecmf
+    GRIB_centreDescription:  European Centre for Medium-Range Weather Forecasts
+    GRIB_subCentre:          0
+    Conventions:             CF-1.7
+    institution:             European Centre for Medium-Range Weather Forecasts
+    history:                 2024-02-14T09:02 GRIB to CDM+CF via cfgrib-0.9.1...",0.019299200001114514,3.4,2.7890625,60,TemporalDataModification
+"<xarray.Dataset>
+Dimensions:     (time: 264, latitude: 501, longitude: 701)
+Coordinates:
+    number      int32 ...
+  * time        (time) datetime64[ns] 2000-01-01 2000-02-01 ... 2021-12-01
+    step        timedelta64[ns] ...
+    surface     float64 ...
+  * latitude    (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude   (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0
+    valid_time  (time) datetime64[ns] ...
+Data variables:
+    t2m         (time, latitude, longitude) float32 ...
+Attributes:
+    GRIB_edition:            1
+    GRIB_centre:             ecmf
+    GRIB_centreDescription:  European Centre for Medium-Range Weather Forecasts
+    GRIB_subCentre:          0
+    Conventions:             CF-1.7
+    institution:             European Centre for Medium-Range Weather Forecasts
+    history:                 2024-02-14T09:02 GRIB to CDM+CF via cfgrib-0.9.1...",0.019519000001309905,22.2,0.23046875,61,TemporalDataModification
+"<xarray.Dataset>
+Dimensions:     (time: 264, latitude: 501, longitude: 701)
+Coordinates:
+    number      int32 ...
+  * time        (time) datetime64[ns] 2000-01-01 2000-02-01 ... 2021-12-01
+    step        timedelta64[ns] ...
+    surface     float64 ...
+  * latitude    (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude   (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0
+    valid_time  (time) datetime64[ns] ...
+Data variables:
+    t2m         (time, latitude, longitude) float32 ...
+Attributes:
+    GRIB_edition:            1
+    GRIB_centre:             ecmf
+    GRIB_centreDescription:  European Centre for Medium-Range Weather Forecasts
+    GRIB_subCentre:          0
+    Conventions:             CF-1.7
+    institution:             European Centre for Medium-Range Weather Forecasts
+    history:                 2024-02-14T09:02 GRIB to CDM+CF via cfgrib-0.9.1...",0.015385399994556792,7.1,-2.28125,62,TemporalDataModification
+"<xarray.Dataset>
+Dimensions:     (time: 264, latitude: 501, longitude: 701)
+Coordinates:
+    number      int32 ...
+  * time        (time) datetime64[ns] 2000-01-01 2000-02-01 ... 2021-12-01
+    step        timedelta64[ns] ...
+    surface     float64 ...
+  * latitude    (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude   (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0
+    valid_time  (time) datetime64[ns] ...
+Data variables:
+    t2m         (time, latitude, longitude) float32 ...
+Attributes:
+    GRIB_edition:            1
+    GRIB_centre:             ecmf
+    GRIB_centreDescription:  European Centre for Medium-Range Weather Forecasts
+    GRIB_subCentre:          0
+    Conventions:             CF-1.7
+    institution:             European Centre for Medium-Range Weather Forecasts
+    history:                 2024-02-14T09:02 GRIB to CDM+CF via cfgrib-0.9.1...",0.015535499995166901,6.2,0.14453125,63,TemporalDataModification
+"<xarray.Dataset>
+Dimensions:     (time: 264, latitude: 501, longitude: 701)
+Coordinates:
+    number      int32 ...
+  * time        (time) datetime64[ns] 2000-01-01 2000-02-01 ... 2021-12-01
+    step        timedelta64[ns] ...
+    surface     float64 ...
+  * latitude    (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude   (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0
+    valid_time  (time) datetime64[ns] ...
+Data variables:
+    t2m         (time, latitude, longitude) float32 ...
+Attributes:
+    GRIB_edition:            1
+    GRIB_centre:             ecmf
+    GRIB_centreDescription:  European Centre for Medium-Range Weather Forecasts
+    GRIB_subCentre:          0
+    Conventions:             CF-1.7
+    institution:             European Centre for Medium-Range Weather Forecasts
+    history:                 2024-02-14T09:02 GRIB to CDM+CF via cfgrib-0.9.1...",0.01315690000046743,3.8,1.45703125,64,TemporalDataModification
+"<xarray.Dataset>
+Dimensions:     (time: 264, latitude: 501, longitude: 701)
+Coordinates:
+    number      int32 ...
+  * time        (time) datetime64[ns] 2000-01-01 2000-02-01 ... 2021-12-01
+    step        timedelta64[ns] ...
+    surface     float64 ...
+  * latitude    (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude   (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0
+    valid_time  (time) datetime64[ns] ...
+Data variables:
+    t2m         (time, latitude, longitude) float32 ...
+Attributes:
+    GRIB_edition:            1
+    GRIB_centre:             ecmf
+    GRIB_centreDescription:  European Centre for Medium-Range Weather Forecasts
+    GRIB_subCentre:          0
+    Conventions:             CF-1.7
+    institution:             European Centre for Medium-Range Weather Forecasts
+    history:                 2024-02-14T09:02 GRIB to CDM+CF via cfgrib-0.9.1...",0.01281800000288058,0.0,-0.23828125,65,TemporalDataModification
+"<xarray.Dataset>
+Dimensions:     (time: 264, latitude: 501, longitude: 701)
+Coordinates:
+    number      int32 ...
+  * time        (time) datetime64[ns] 2000-01-01 2000-02-01 ... 2021-12-01
+    step        timedelta64[ns] ...
+    surface     float64 ...
+  * latitude    (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude   (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0
+    valid_time  (time) datetime64[ns] ...
+Data variables:
+    t2m         (time, latitude, longitude) float32 ...
+Attributes:
+    GRIB_edition:            1
+    GRIB_centre:             ecmf
+    GRIB_centreDescription:  European Centre for Medium-Range Weather Forecasts
+    GRIB_subCentre:          0
+    Conventions:             CF-1.7
+    institution:             European Centre for Medium-Range Weather Forecasts
+    history:                 2024-02-14T09:02 GRIB to CDM+CF via cfgrib-0.9.1...",0.014151800001855008,6.2,0.65234375,66,TemporalDataModification
+"<xarray.Dataset>
+Dimensions:     (time: 264, latitude: 501, longitude: 701)
+Coordinates:
+    number      int32 ...
+  * time        (time) datetime64[ns] 2000-01-01 2000-02-01 ... 2021-12-01
+    step        timedelta64[ns] ...
+    surface     float64 ...
+  * latitude    (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude   (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0
+    valid_time  (time) datetime64[ns] ...
+Data variables:
+    t2m         (time, latitude, longitude) float32 ...
+Attributes:
+    GRIB_edition:            1
+    GRIB_centre:             ecmf
+    GRIB_centreDescription:  European Centre for Medium-Range Weather Forecasts
+    GRIB_subCentre:          0
+    Conventions:             CF-1.7
+    institution:             European Centre for Medium-Range Weather Forecasts
+    history:                 2024-02-14T09:02 GRIB to CDM+CF via cfgrib-0.9.1...",0.012921699999424163,0.0,-0.40234375,67,TemporalDataModification
+"<xarray.Dataset>
+Dimensions:     (time: 264, latitude: 501, longitude: 701)
+Coordinates:
+    number      int32 ...
+  * time        (time) datetime64[ns] 2000-01-01 2000-02-01 ... 2021-12-01
+    step        timedelta64[ns] ...
+    surface     float64 ...
+  * latitude    (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude   (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0
+    valid_time  (time) datetime64[ns] ...
+Data variables:
+    t2m         (time, latitude, longitude) float32 ...
+Attributes:
+    GRIB_edition:            1
+    GRIB_centre:             ecmf
+    GRIB_centreDescription:  European Centre for Medium-Range Weather Forecasts
+    GRIB_subCentre:          0
+    Conventions:             CF-1.7
+    institution:             European Centre for Medium-Range Weather Forecasts
+    history:                 2024-02-14T09:02 GRIB to CDM+CF via cfgrib-0.9.1...",0.012894699997559655,6.2,0.890625,68,TemporalDataModification
+"<xarray.Dataset>
+Dimensions:     (time: 264, latitude: 501, longitude: 701)
+Coordinates:
+    number      int32 ...
+  * time        (time) datetime64[ns] 2000-01-01 2000-02-01 ... 2021-12-01
+    step        timedelta64[ns] ...
+    surface     float64 ...
+  * latitude    (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude   (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0
+    valid_time  (time) datetime64[ns] ...
+Data variables:
+    t2m         (time, latitude, longitude) float32 ...
+Attributes:
+    GRIB_edition:            1
+    GRIB_centre:             ecmf
+    GRIB_centreDescription:  European Centre for Medium-Range Weather Forecasts
+    GRIB_subCentre:          0
+    Conventions:             CF-1.7
+    institution:             European Centre for Medium-Range Weather Forecasts
+    history:                 2024-02-14T09:02 GRIB to CDM+CF via cfgrib-0.9.1...",0.012884199997643009,0.0,0.10546875,69,TemporalDataModification
+"<xarray.Dataset>
+Dimensions:       (time: 264, latitude: 501, longitude: 701)
+Coordinates:
+    number        int32 ...
+  * time          (time) datetime64[ns] 2000-01-01 2000-02-01 ... 2021-12-01
+    step          timedelta64[ns] ...
+    surface       float64 ...
+  * latitude      (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude     (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0
+    valid_time    (time) datetime64[ns] ...
+Data variables:
+    t2m           (time, latitude, longitude) float32 246.5 246.6 ... 289.3
+    t2m_modified  (time, latitude, longitude) float32 361.0 361.1 ... 423.6
+Attributes:
+    GRIB_edition:            1
+    GRIB_centre:             ecmf
+    GRIB_centreDescription:  European Centre for Medium-Range Weather Forecasts
+    GRIB_subCentre:          0
+    Conventions:             CF-1.7
+    institution:             European Centre for Medium-Range Weather Forecasts
+    history:                 2024-02-14T09:02 GRIB to CDM+CF via cfgrib-0.9.1...",0.09543400000256952,5.3,337.02734375,70,AddDerivedVariable
+"<xarray.Dataset>
+Dimensions:       (time: 264, latitude: 501, longitude: 701)
+Coordinates:
+    number        int32 ...
+  * time          (time) datetime64[ns] 2000-01-01 2000-02-01 ... 2021-12-01
+    step          timedelta64[ns] ...
+    surface       float64 ...
+  * latitude      (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude     (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0
+    valid_time    (time) datetime64[ns] ...
+Data variables:
+    t2m           (time, latitude, longitude) float32 246.5 246.6 ... 289.3
+    t2m_modified  (time, latitude, longitude) float32 361.0 361.1 ... 423.6
+Attributes:
+    GRIB_edition:            1
+    GRIB_centre:             ecmf
+    GRIB_centreDescription:  European Centre for Medium-Range Weather Forecasts
+    GRIB_subCentre:          0
+    Conventions:             CF-1.7
+    institution:             European Centre for Medium-Range Weather Forecasts
+    history:                 2024-02-14T09:02 GRIB to CDM+CF via cfgrib-0.9.1...",0.11608560000604484,9.6,14.1328125,71,AddDerivedVariable
+"<xarray.Dataset>
+Dimensions:       (time: 264, latitude: 501, longitude: 701)
+Coordinates:
+    number        int32 ...
+  * time          (time) datetime64[ns] 2000-01-01 2000-02-01 ... 2021-12-01
+    step          timedelta64[ns] ...
+    surface       float64 ...
+  * latitude      (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude     (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0
+    valid_time    (time) datetime64[ns] ...
+Data variables:
+    t2m           (time, latitude, longitude) float32 246.5 246.6 ... 289.3
+    t2m_modified  (time, latitude, longitude) float32 361.0 361.1 ... 423.6
+Attributes:
+    GRIB_edition:            1
+    GRIB_centre:             ecmf
+    GRIB_centreDescription:  European Centre for Medium-Range Weather Forecasts
+    GRIB_subCentre:          0
+    Conventions:             CF-1.7
+    institution:             European Centre for Medium-Range Weather Forecasts
+    history:                 2024-02-14T09:02 GRIB to CDM+CF via cfgrib-0.9.1...",0.11578349999763304,-86.7,1.9765625,72,AddDerivedVariable
+"<xarray.Dataset>
+Dimensions:       (time: 264, latitude: 501, longitude: 701)
+Coordinates:
+    number        int32 ...
+  * time          (time) datetime64[ns] 2000-01-01 2000-02-01 ... 2021-12-01
+    step          timedelta64[ns] ...
+    surface       float64 ...
+  * latitude      (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude     (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0
+    valid_time    (time) datetime64[ns] ...
+Data variables:
+    t2m           (time, latitude, longitude) float32 246.5 246.6 ... 289.3
+    t2m_modified  (time, latitude, longitude) float32 361.0 361.1 ... 423.6
+Attributes:
+    GRIB_edition:            1
+    GRIB_centre:             ecmf
+    GRIB_centreDescription:  European Centre for Medium-Range Weather Forecasts
+    GRIB_subCentre:          0
+    Conventions:             CF-1.7
+    institution:             European Centre for Medium-Range Weather Forecasts
+    history:                 2024-02-14T09:02 GRIB to CDM+CF via cfgrib-0.9.1...",0.13634669999737525,11.9,17.32421875,73,AddDerivedVariable
+"<xarray.Dataset>
+Dimensions:       (time: 264, latitude: 501, longitude: 701)
+Coordinates:
+    number        int32 ...
+  * time          (time) datetime64[ns] 2000-01-01 2000-02-01 ... 2021-12-01
+    step          timedelta64[ns] ...
+    surface       float64 ...
+  * latitude      (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude     (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0
+    valid_time    (time) datetime64[ns] ...
+Data variables:
+    t2m           (time, latitude, longitude) float32 246.5 246.6 ... 289.3
+    t2m_modified  (time, latitude, longitude) float32 361.0 361.1 ... 423.6
+Attributes:
+    GRIB_edition:            1
+    GRIB_centre:             ecmf
+    GRIB_centreDescription:  European Centre for Medium-Range Weather Forecasts
+    GRIB_subCentre:          0
+    Conventions:             CF-1.7
+    institution:             European Centre for Medium-Range Weather Forecasts
+    history:                 2024-02-14T09:02 GRIB to CDM+CF via cfgrib-0.9.1...",0.12857369999983348,6.1,-0.375,74,AddDerivedVariable
+"<xarray.Dataset>
+Dimensions:       (time: 264, latitude: 501, longitude: 701)
+Coordinates:
+    number        int32 ...
+  * time          (time) datetime64[ns] 2000-01-01 2000-02-01 ... 2021-12-01
+    step          timedelta64[ns] ...
+    surface       float64 ...
+  * latitude      (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude     (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0
+    valid_time    (time) datetime64[ns] ...
+Data variables:
+    t2m           (time, latitude, longitude) float32 246.5 246.6 ... 289.3
+    t2m_modified  (time, latitude, longitude) float32 361.0 361.1 ... 423.6
+Attributes:
+    GRIB_edition:            1
+    GRIB_centre:             ecmf
+    GRIB_centreDescription:  European Centre for Medium-Range Weather Forecasts
+    GRIB_subCentre:          0
+    Conventions:             CF-1.7
+    institution:             European Centre for Medium-Range Weather Forecasts
+    history:                 2024-02-14T09:02 GRIB to CDM+CF via cfgrib-0.9.1...",0.1167903000023216,0.8999999999999995,-8.57421875,75,AddDerivedVariable
+"<xarray.Dataset>
+Dimensions:       (time: 264, latitude: 501, longitude: 701)
+Coordinates:
+    number        int32 ...
+  * time          (time) datetime64[ns] 2000-01-01 2000-02-01 ... 2021-12-01
+    step          timedelta64[ns] ...
+    surface       float64 ...
+  * latitude      (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude     (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0
+    valid_time    (time) datetime64[ns] ...
+Data variables:
+    t2m           (time, latitude, longitude) float32 246.5 246.6 ... 289.3
+    t2m_modified  (time, latitude, longitude) float32 361.0 361.1 ... 423.6
+Attributes:
+    GRIB_edition:            1
+    GRIB_centre:             ecmf
+    GRIB_centreDescription:  European Centre for Medium-Range Weather Forecasts
+    GRIB_subCentre:          0
+    Conventions:             CF-1.7
+    institution:             European Centre for Medium-Range Weather Forecasts
+    history:                 2024-02-14T09:02 GRIB to CDM+CF via cfgrib-0.9.1...",0.1124370000034105,-7.4,-7.93359375,76,AddDerivedVariable
+"<xarray.Dataset>
+Dimensions:       (time: 264, latitude: 501, longitude: 701)
+Coordinates:
+    number        int32 ...
+  * time          (time) datetime64[ns] 2000-01-01 2000-02-01 ... 2021-12-01
+    step          timedelta64[ns] ...
+    surface       float64 ...
+  * latitude      (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude     (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0
+    valid_time    (time) datetime64[ns] ...
+Data variables:
+    t2m           (time, latitude, longitude) float32 246.5 246.6 ... 289.3
+    t2m_modified  (time, latitude, longitude) float32 361.0 361.1 ... 423.6
+Attributes:
+    GRIB_edition:            1
+    GRIB_centre:             ecmf
+    GRIB_centreDescription:  European Centre for Medium-Range Weather Forecasts
+    GRIB_subCentre:          0
+    Conventions:             CF-1.7
+    institution:             European Centre for Medium-Range Weather Forecasts
+    history:                 2024-02-14T09:02 GRIB to CDM+CF via cfgrib-0.9.1...",0.11734169999544974,-41.3,11.73828125,77,AddDerivedVariable
+"<xarray.Dataset>
+Dimensions:       (time: 264, latitude: 501, longitude: 701)
+Coordinates:
+    number        int32 ...
+  * time          (time) datetime64[ns] 2000-01-01 2000-02-01 ... 2021-12-01
+    step          timedelta64[ns] ...
+    surface       float64 ...
+  * latitude      (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude     (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0
+    valid_time    (time) datetime64[ns] ...
+Data variables:
+    t2m           (time, latitude, longitude) float32 246.5 246.6 ... 289.3
+    t2m_modified  (time, latitude, longitude) float32 361.0 361.1 ... 423.6
+Attributes:
+    GRIB_edition:            1
+    GRIB_centre:             ecmf
+    GRIB_centreDescription:  European Centre for Medium-Range Weather Forecasts
+    GRIB_subCentre:          0
+    Conventions:             CF-1.7
+    institution:             European Centre for Medium-Range Weather Forecasts
+    history:                 2024-02-14T09:02 GRIB to CDM+CF via cfgrib-0.9.1...",0.10432520000176737,12.1,7.11328125,78,AddDerivedVariable
+"<xarray.Dataset>
+Dimensions:       (time: 264, latitude: 501, longitude: 701)
+Coordinates:
+    number        int32 ...
+  * time          (time) datetime64[ns] 2000-01-01 2000-02-01 ... 2021-12-01
+    step          timedelta64[ns] ...
+    surface       float64 ...
+  * latitude      (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude     (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0
+    valid_time    (time) datetime64[ns] ...
+Data variables:
+    t2m           (time, latitude, longitude) float32 246.5 246.6 ... 289.3
+    t2m_modified  (time, latitude, longitude) float32 361.0 361.1 ... 423.6
+Attributes:
+    GRIB_edition:            1
+    GRIB_centre:             ecmf
+    GRIB_centreDescription:  European Centre for Medium-Range Weather Forecasts
+    GRIB_subCentre:          0
+    Conventions:             CF-1.7
+    institution:             European Centre for Medium-Range Weather Forecasts
+    history:                 2024-02-14T09:02 GRIB to CDM+CF via cfgrib-0.9.1...",0.10630659999878844,-2.6000000000000014,-0.13671875,79,AddDerivedVariable
+"<xarray.Dataset>
+Dimensions:       (time: 264, latitude: 501, longitude: 701)
+Coordinates:
+    number        int32 ...
+  * time          (time) datetime64[ns] 2000-01-01 2000-02-01 ... 2021-12-01
+    step          timedelta64[ns] ...
+    surface       float64 ...
+  * latitude      (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude     (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0
+    valid_time    (time) datetime64[ns] ...
+Data variables:
+    t2m           (time, latitude, longitude) float32 246.5 246.6 ... 289.3
+    t2m_modified  (time, latitude, longitude) float32 361.0 361.1 ... 423.6
+Attributes:
+    GRIB_edition:            1
+    GRIB_centre:             ecmf
+    GRIB_centreDescription:  European Centre for Medium-Range Weather Forecasts
+    GRIB_subCentre:          0
+    Conventions:             CF-1.7
+    institution:             European Centre for Medium-Range Weather Forecasts
+    history:                 2024-02-14T09:02 GRIB to CDM+CF via cfgrib-0.9.1...",0.09790549999888754,-89.2,-1.9375,80,AddDerivedVariable
+"<xarray.Dataset>
+Dimensions:       (time: 264, latitude: 501, longitude: 701)
+Coordinates:
+    number        int32 ...
+  * time          (time) datetime64[ns] 2000-01-01 2000-02-01 ... 2021-12-01
+    step          timedelta64[ns] ...
+    surface       float64 ...
+  * latitude      (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude     (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0
+    valid_time    (time) datetime64[ns] ...
+Data variables:
+    t2m           (time, latitude, longitude) float32 246.5 246.6 ... 289.3
+    t2m_modified  (time, latitude, longitude) float32 361.0 361.1 ... 423.6
+Attributes:
+    GRIB_edition:            1
+    GRIB_centre:             ecmf
+    GRIB_centreDescription:  European Centre for Medium-Range Weather Forecasts
+    GRIB_subCentre:          0
+    Conventions:             CF-1.7
+    institution:             European Centre for Medium-Range Weather Forecasts
+    history:                 2024-02-14T09:02 GRIB to CDM+CF via cfgrib-0.9.1...",0.09515249999822117,7.2,-3.8515625,81,AddDerivedVariable
+"<xarray.Dataset>
+Dimensions:       (time: 264, latitude: 501, longitude: 701)
+Coordinates:
+    number        int32 ...
+  * time          (time) datetime64[ns] 2000-01-01 2000-02-01 ... 2021-12-01
+    step          timedelta64[ns] ...
+    surface       float64 ...
+  * latitude      (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude     (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0
+    valid_time    (time) datetime64[ns] ...
+Data variables:
+    t2m           (time, latitude, longitude) float32 246.5 246.6 ... 289.3
+    t2m_modified  (time, latitude, longitude) float32 361.0 361.1 ... 423.6
+Attributes:
+    GRIB_edition:            1
+    GRIB_centre:             ecmf
+    GRIB_centreDescription:  European Centre for Medium-Range Weather Forecasts
+    GRIB_subCentre:          0
+    Conventions:             CF-1.7
+    institution:             European Centre for Medium-Range Weather Forecasts
+    history:                 2024-02-14T09:02 GRIB to CDM+CF via cfgrib-0.9.1...",0.09244049999688286,2.3000000000000007,7.8515625,82,AddDerivedVariable
+"<xarray.Dataset>
+Dimensions:       (time: 264, latitude: 501, longitude: 701)
+Coordinates:
+    number        int32 ...
+  * time          (time) datetime64[ns] 2000-01-01 2000-02-01 ... 2021-12-01
+    step          timedelta64[ns] ...
+    surface       float64 ...
+  * latitude      (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude     (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0
+    valid_time    (time) datetime64[ns] ...
+Data variables:
+    t2m           (time, latitude, longitude) float32 246.5 246.6 ... 289.3
+    t2m_modified  (time, latitude, longitude) float32 361.0 361.1 ... 423.6
+Attributes:
+    GRIB_edition:            1
+    GRIB_centre:             ecmf
+    GRIB_centreDescription:  European Centre for Medium-Range Weather Forecasts
+    GRIB_subCentre:          0
+    Conventions:             CF-1.7
+    institution:             European Centre for Medium-Range Weather Forecasts
+    history:                 2024-02-14T09:02 GRIB to CDM+CF via cfgrib-0.9.1...",0.08798050000041258,9.2,-1.234375,83,AddDerivedVariable
+"<xarray.Dataset>
+Dimensions:       (time: 264, latitude: 501, longitude: 701)
+Coordinates:
+    number        int32 ...
+  * time          (time) datetime64[ns] 2000-01-01 2000-02-01 ... 2021-12-01
+    step          timedelta64[ns] ...
+    surface       float64 ...
+  * latitude      (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude     (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0
+    valid_time    (time) datetime64[ns] ...
+Data variables:
+    t2m           (time, latitude, longitude) float32 246.5 246.6 ... 289.3
+    t2m_modified  (time, latitude, longitude) float32 361.0 361.1 ... 423.6
+Attributes:
+    GRIB_edition:            1
+    GRIB_centre:             ecmf
+    GRIB_centreDescription:  European Centre for Medium-Range Weather Forecasts
+    GRIB_subCentre:          0
+    Conventions:             CF-1.7
+    institution:             European Centre for Medium-Range Weather Forecasts
+    history:                 2024-02-14T09:02 GRIB to CDM+CF via cfgrib-0.9.1...",0.08994639999582432,7.3,-0.34765625,84,AddDerivedVariable
+"<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
+array([[243.59526, 243.69617, 243.79317, ...,       nan,       nan,
+              nan],
+       [244.01714, 244.0855 , 244.15515, ...,       nan,       nan,
+              nan],
+       [244.54773, 244.64214, 244.72807, ...,       nan,       nan,
+              nan],
+       ...,
+       [      nan,       nan,       nan, ..., 287.09265, 287.09915,
+        287.1213 ],
+       [      nan,       nan,       nan, ..., 287.2411 , 287.13626,
+        287.20984],
+       [      nan,       nan,       nan, ..., 287.4058 , 287.2743 ,
+        287.29382]], dtype=float32)
+Coordinates:
+    number     int32 ...
+    step       timedelta64[ns] ...
+    surface    float64 ...
+  * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.020708900003228337,0.0,2.09375,85,SeasonalAggregation
+"<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
+array([[250.03526, 250.1251 , 250.21169, ...,       nan,       nan,
+              nan],
+       [250.42133, 250.47862, 250.53526, ...,       nan,       nan,
+              nan],
+       [250.88226, 250.95714, 251.03331, ...,       nan,       nan,
+              nan],
+       ...,
+       [      nan,       nan,       nan, ..., 297.64334, 297.68826,
+        297.75858],
+       [      nan,       nan,       nan, ..., 297.7332 , 297.62967,
+        297.75858],
+       [      nan,       nan,       nan, ..., 297.80087, 297.6583 ,
+        297.72342]], dtype=float32)
+Coordinates:
+    number     int32 ...
+    step       timedelta64[ns] ...
+    surface    float64 ...
+  * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.015301599996746518,16.7,1.484375,86,SeasonalAggregation
+"<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
+array([[251.05132, 251.14766, 251.23882, ...,       nan,       nan,
+              nan],
+       [251.47449, 251.53113, 251.58777, ...,       nan,       nan,
+              nan],
+       [251.89507, 251.96407, 252.03374, ...,       nan,       nan,
+              nan],
+       ...,
+       [      nan,       nan,       nan, ..., 299.59622, 299.65417,
+        299.73816],
+       [      nan,       nan,       nan, ..., 299.7056 , 299.6086 ,
+        299.7466 ],
+       [      nan,       nan,       nan, ..., 299.77917, 299.62943,
+        299.69388]], dtype=float32)
+Coordinates:
+    number     int32 ...
+    step       timedelta64[ns] ...
+    surface    float64 ...
+  * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.015457400004379451,0.0,1.3671875,87,SeasonalAggregation
+"<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
+array([[267.427  , 267.55786, 267.6848 , ...,       nan,       nan,
+              nan],
+       [267.75903, 267.85864, 267.95825, ...,       nan,       nan,
+              nan],
+       [268.2473 , 268.35474, 268.47192, ...,       nan,       nan,
+              nan],
+       ...,
+       [      nan,       nan,       nan, ..., 308.07202, 308.17944,
+        308.30835],
+       [      nan,       nan,       nan, ..., 308.11694, 308.04468,
+        308.2185 ],
+       [      nan,       nan,       nan, ..., 308.1228 , 307.99585,
+        308.0818 ]], dtype=float32)
+Coordinates:
+    number     int32 ...
+    step       timedelta64[ns] ...
+    surface    float64 ...
+  * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.011945400001422968,0.0,2.24609375,88,SeasonalAggregation
+"<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
+array([[nan, nan, nan, ..., nan, nan, nan],
+       [nan, nan, nan, ..., nan, nan, nan],
+       [nan, nan, nan, ..., nan, nan, nan],
+       ...,
+       [nan, nan, nan, ..., nan, nan, nan],
+       [nan, nan, nan, ..., nan, nan, nan],
+       [nan, nan, nan, ..., nan, nan, nan]], dtype=float32)
+Coordinates:
+    number     int32 ...
+    step       timedelta64[ns] ...
+    surface    float64 ...
+  * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.010405900000478141,5.9,-1.2265625,89,SeasonalAggregation
+"<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
+array([[252.04498, 252.1179 , 252.183  , ...,       nan,       nan,
+              nan],
+       [252.37181, 252.40761, 252.44408, ...,       nan,       nan,
+              nan],
+       [252.70775, 252.76634, 252.81256, ...,       nan,       nan,
+              nan],
+       ...,
+       [      nan,       nan,       nan, ..., 299.0717 , 299.10422,
+        299.15958],
+       [      nan,       nan,       nan, ..., 299.1791 , 299.06387,
+        299.1739 ],
+       [      nan,       nan,       nan, ..., 299.24747, 299.09772,
+        299.14133]], dtype=float32)
+Coordinates:
+    number     int32 ...
+    step       timedelta64[ns] ...
+    surface    float64 ...
+  * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.015889599999354687,0.0,1.25390625,90,SeasonalAggregation
+"<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
+array([[256.18936, 256.30722, 256.4205 , ...,       nan,       nan,
+              nan],
+       [256.58585, 256.67374, 256.76035, ...,       nan,       nan,
+              nan],
+       [257.0598 , 257.1627 , 257.26425, ...,       nan,       nan,
+              nan],
+       ...,
+       [      nan,       nan,       nan, ..., 298.59692, 298.60214,
+        298.65097],
+       [      nan,       nan,       nan, ..., 298.6705 , 298.52402,
+        298.61386],
+       [      nan,       nan,       nan, ..., 298.71606, 298.5162 ,
+        298.5214 ]], dtype=float32)
+Coordinates:
+    number     int32 ...
+    step       timedelta64[ns] ...
+    surface    float64 ...
+  * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.015484199997445103,6.7,2.015625,91,SeasonalAggregation
+"<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
+array([[266.93692, 267.0411 , 267.14136, ...,       nan,       nan,
+              nan],
+       [267.2605 , 267.33212, 267.40503, ...,       nan,       nan,
+              nan],
+       [267.6967 , 267.77676, 267.86465, ...,       nan,       nan,
+              nan],
+       ...,
+       [      nan,       nan,       nan, ..., 306.66153, 306.7501 ,
+        306.89853],
+       [      nan,       nan,       nan, ..., 306.71036, 306.6355 ,
+        306.82886],
+       [      nan,       nan,       nan, ..., 306.739  , 306.6088 ,
+        306.71884]], dtype=float32)
+Coordinates:
+    number     int32 ...
+    step       timedelta64[ns] ...
+    surface    float64 ...
+  * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.015811600002052728,6.6,-3.1796875,92,SeasonalAggregation
+"<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
+array([[245.36986, 245.46751, 245.55736, ...,       nan,       nan,
+              nan],
+       [245.69408, 245.76439, 245.83275, ...,       nan,       nan,
+              nan],
+       [246.21751, 246.3015 , 246.40306, ...,       nan,       nan,
+              nan],
+       ...,
+       [      nan,       nan,       nan, ..., 290.24524, 290.2257 ,
+        290.23352],
+       [      nan,       nan,       nan, ..., 290.3468 , 290.20227,
+        290.2472 ],
+       [      nan,       nan,       nan, ..., 290.4386 , 290.255  ,
+        290.23547]], dtype=float32)
+Coordinates:
+    number     int32 ...
+    step       timedelta64[ns] ...
+    surface    float64 ...
+  * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.013190699995902833,0.0,-12.7734375,93,SeasonalAggregation
+"<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
+array([[251.87175, 251.98242, 252.08855, ...,       nan,       nan,
+              nan],
+       [252.24153, 252.3177 , 252.39388, ...,       nan,       nan,
+              nan],
+       [252.70052, 252.80013, 252.88867, ...,       nan,       nan,
+              nan],
+       ...,
+       [      nan,       nan,       nan, ..., 298.72983, 298.7565 ,
+        298.81772],
+       [      nan,       nan,       nan, ..., 298.78125, 298.6621 ,
+        298.77084],
+       [      nan,       nan,       nan, ..., 298.82486, 298.65625,
+        298.6914 ]], dtype=float32)
+Coordinates:
+    number     int32 ...
+    step       timedelta64[ns] ...
+    surface    float64 ...
+  * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.01623930000641849,5.6,1.45703125,94,SeasonalAggregation
+"<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
+array([[258.69946, 258.80493, 258.9065 , ...,       nan,       nan,
+              nan],
+       [259.07837, 259.15063, 259.22095, ...,       nan,       nan,
+              nan],
+       [259.58813, 259.67407, 259.75806, ...,       nan,       nan,
+              nan],
+       ...,
+       [      nan,       nan,       nan, ..., 302.81274, 302.9143 ,
+        303.02954],
+       [      nan,       nan,       nan, ..., 302.89282, 302.8147 ,
+        302.99243],
+       [      nan,       nan,       nan, ..., 302.93774, 302.79517,
+        302.89087]], dtype=float32)
+Coordinates:
+    number     int32 ...
+    step       timedelta64[ns] ...
+    surface    float64 ...
+  * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.01214369999797782,0.0,-0.1171875,95,SeasonalAggregation
+"<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
+array([[256.18936, 256.30722, 256.4205 , ...,       nan,       nan,
+              nan],
+       [256.58585, 256.67374, 256.76035, ...,       nan,       nan,
+              nan],
+       [257.0598 , 257.1627 , 257.26425, ...,       nan,       nan,
+              nan],
+       ...,
+       [      nan,       nan,       nan, ..., 298.59692, 298.60214,
+        298.65097],
+       [      nan,       nan,       nan, ..., 298.6705 , 298.52402,
+        298.61386],
+       [      nan,       nan,       nan, ..., 298.71606, 298.5162 ,
+        298.5214 ]], dtype=float32)
+Coordinates:
+    number     int32 ...
+    step       timedelta64[ns] ...
+    surface    float64 ...
+  * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.015335600000980776,3.2,-0.984375,96,SeasonalAggregation
+"<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
+array([[269.4795 , 269.59668, 269.70996, ...,       nan,       nan,
+              nan],
+       [269.78418, 269.87012, 269.9541 , ...,       nan,       nan,
+              nan],
+       [270.2334 , 270.32324, 270.4248 , ...,       nan,       nan,
+              nan],
+       ...,
+       [      nan,       nan,       nan, ..., 308.20923, 308.3147 ,
+        308.45142],
+       [      nan,       nan,       nan, ..., 308.2268 , 308.1565 ,
+        308.3518 ],
+       [      nan,       nan,       nan, ..., 308.2229 , 308.0979 ,
+        308.20337]], dtype=float32)
+Coordinates:
+    number     int32 ...
+    step       timedelta64[ns] ...
+    surface    float64 ...
+  * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.010319199995137751,0.0,1.859375,97,SeasonalAggregation
+"<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
+array([[248.2466 , 248.35011, 248.44582, ...,       nan,       nan,
+              nan],
+       [248.74074, 248.80519, 248.86964, ...,       nan,       nan,
+              nan],
+       [249.27785, 249.36378, 249.44777, ...,       nan,       nan,
+              nan],
+       ...,
+       [      nan,       nan,       nan, ..., 288.68616, 288.68225,
+        288.69202],
+       [      nan,       nan,       nan, ..., 288.83264, 288.69983,
+        288.75452],
+       [      nan,       nan,       nan, ..., 288.95374, 288.78186,
+        288.76624]], dtype=float32)
+Coordinates:
+    number     int32 ...
+    step       timedelta64[ns] ...
+    surface    float64 ...
+  * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.009847999994235579,0.0,1.625,98,SeasonalAggregation
+"<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
+array([[267.48618, 267.5962 , 267.6984 , ...,       nan,       nan,
+              nan],
+       [267.84293, 267.9269 , 268.01157, ...,       nan,       nan,
+              nan],
+       [268.2798 , 268.3566 , 268.43344, ...,       nan,       nan,
+              nan],
+       ...,
+       [      nan,       nan,       nan, ..., 307.423  , 307.5233 ,
+        307.6639 ],
+       [      nan,       nan,       nan, ..., 307.47183, 307.3976 ,
+        307.5858 ],
+       [      nan,       nan,       nan, ..., 307.48877, 307.36963,
+        307.4738 ]], dtype=float32)
+Coordinates:
+    number     int32 ...
+    step       timedelta64[ns] ...
+    surface    float64 ...
+  * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.01382749999902444,0.0,-1.140625,99,SeasonalAggregation

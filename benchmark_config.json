@@ -1,0 +1,11 @@
+{
+  "data_path": "E:/tu ilmenau/WS 24/Research Project/progress/ERA5-Land_2m_temperature_2000-2022_europe_2.grib",
+  "queries": [
+    { "type": "TemporalRangeAggregation", "weight": 30 },
+    { "type": "SpatialSubsetExtraction", "weight": 25 },
+    { "type": "TemporalDataModification", "weight": 15 },
+    { "type": "AddDerivedVariable", "weight": 15 },
+    { "type": "SeasonalAggregation", "weight": 15 }
+  ],
+  "total_queries": 100
+}
