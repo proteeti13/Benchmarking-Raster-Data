@@ -4,6 +4,8 @@ import xarray as xr
 import json
 import time
 import psutil
+import logging
+
 from query_functions import (
     temporal_range_aggregation,
     spatial_subset_extraction,
@@ -11,6 +13,8 @@ from query_functions import (
     add_derived_variable,
     seasonal_aggregation,
 )
+
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 def load_config(config_path="benchmark_config.json"):
     with open(config_path, "r") as file:
@@ -24,50 +28,61 @@ def execute_query(ds, query):
     cpu_before, mem_before = get_system_usage()
     start_time = time.perf_counter()
 
-
-    if 'lat_range' in query and isinstance(query['lat_range'], str):
-        query['lat_range'] = json.loads(query['lat_range'])
-    if 'lon_range' in query and isinstance(query['lon_range'], str):
-        query['lon_range'] = json.loads(query['lon_range'])
-
-
     try:
+
+        if 'lat_range' in query and isinstance(query['lat_range'], str):
+            query['lat_range'] = json.loads(query['lat_range'])
+        if 'lon_range' in query and isinstance(query['lon_range'], str):
+            query['lon_range'] = json.loads(query['lon_range'])
+
+
+
         if query['type'] == 'TemporalRangeAggregation':
             result = temporal_range_aggregation(ds, query['start_date'], query['end_date'],
                                                 query['variable'], query['operation'])
         elif query['type'] == 'SpatialSubsetExtraction':
             result = spatial_subset_extraction(ds, query['lat_range'], query['lon_range'],
-                                               query['variable'])
+                                            query['variable'])
         elif query['type'] == 'TemporalDataModification':
             result = temporal_data_modification(ds, int(query['year']), int(query['month']),
                                                 query['modification'], float(query['value']),
                                                 query['variable'])
         elif query['type'] == 'AddDerivedVariable':
             result = add_derived_variable(ds, query['new_variable_name'],
-                                          query['base_variable'], query['operation'], float(query['factor']))
+                                        query['base_variable'], query['operation'], float(query['factor']))
         elif query['type'] == 'SeasonalAggregation':
             result = seasonal_aggregation(ds, int(query['year']), query['season'],
-                                          query['variable'], query['operation'])
+                                        query['variable'], query['operation'])
         else:
             raise ValueError(f"Unsupported query type: {query['type']}")
+
+
+        execution_time = time.perf_counter() - start_time
+        cpu_after, mem_after = get_system_usage()
+
+        cpu_diff = cpu_after - cpu_before
+        mem_diff = (mem_after - mem_before) / (1024**2) 
+
+        logging.info(f"Query {query['type']} executed successfully in {execution_time} seconds.")
+
+
+        return {
+            "result": result,
+            "execution_time_sec": execution_time,
+            "cpu_usage_diff_percent": cpu_diff,
+            "memory_usage_diff_mb": mem_diff
+        }
+        
     except Exception as e:
+        logging.error(f"An error occurred while executing the query: {e}")
 
-        result = None
-        print(f"An error occurred while executing the query: {e}")
+        return {
+            "result": "Error",
+            "execution_time_sec": 0,
+            "cpu_usage_diff_percent": 0,
+            "memory_usage_diff_mb": 0
+        }
 
-    execution_time = time.perf_counter() - start_time
-    cpu_after, mem_after = get_system_usage()
-
-    cpu_diff = cpu_after - cpu_before
-    mem_diff = (mem_after - mem_before) / (1024**2) 
-
-
-    return {
-        "result": result,
-        "execution_time_sec": execution_time,
-        "cpu_usage_diff_percent": cpu_diff,
-        "memory_usage_diff_mb": mem_diff
-    }
 
 def run_benchmark(workload_file, config):
     ds = xr.open_dataset(config["data_path"], engine='cfgrib')

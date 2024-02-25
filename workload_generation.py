@@ -4,6 +4,7 @@ import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta
 import csv
+import random
 
 def generate_parameters(query_type):
 
@@ -65,6 +66,11 @@ def generate_parameters(query_type):
 def generate_workload(config_path="benchmark_config.json", workload_file="workload.csv"):
     with open(config_path, "r") as file:
         config = json.load(file)
+
+    
+    total_weight = sum(query_config.get("weight", 0) for query_config in config["queries"])
+    if total_weight != 100:
+        raise ValueError("The sum of the weights in the config does not add up to 100.")
     
     queries = []
     total_queries = config.get("total_queries", 100)
@@ -74,33 +80,31 @@ def generate_workload(config_path="benchmark_config.json", workload_file="worklo
         for _ in range(num_queries):
             params = generate_parameters(query_config["type"])
             queries.append({"type": query_config["type"], **params})
+
+    random.shuffle(queries)
     
     with open(workload_file, 'w', newline='') as csvfile:
         fieldnames = ['type', 'start_date', 'end_date', 'variable', 'operation', 'lat_range', 'lon_range', 'year', 'month', 'modification', 'value', 'new_variable_name', 'base_variable', 'factor', 'season']
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         
         writer.writeheader()
+
+
         for query in queries:
-            
-            if 'lat_range' in query:
-                query['lat_range'] = json.dumps(query['lat_range'])
-            if 'lon_range' in query:
-                query['lon_range'] = json.dumps(query['lon_range'])
-
-
+            for key in ['lat_range', 'lon_range']:
+                if key in query:
+                    query[key] = json.dumps(query[key])
             for key in ['year', 'month', 'value', 'factor']:
                 if key in query:
                     query[key] = str(query[key])
-            
-
-
             writer.writerow(query)
+
     
     print(f"Workload file '{workload_file}' generated with {len(queries)} queries.")
 
 
-
-generate_workload()
+if __name__ == "__main__":
+    generate_workload()
 
 
 # try:

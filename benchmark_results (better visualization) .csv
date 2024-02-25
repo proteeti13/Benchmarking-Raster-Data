@@ -1,4 +1,4 @@
-result,execution_time_sec,cpu_usage_diff_percent,memory_usage_diff_mb,query_index,query_type
+result;execution_time_sec;cpu_usage_diff_percent;memory_usage_diff_mb;query_index;query_type
 "<xarray.DataArray 't2m' (time: 264, latitude: 0, longitude: 375)>
 [0 values with dtype=float32]
 Coordinates:
@@ -22,7 +22,7 @@ Attributes: (12/30)
     GRIB_units:                               K
     long_name:                                2 metre temperature
     units:                                    K
-    standard_name:                            unknown",0.0017032000032486394,24.599999999999998,0.00390625,0,SpatialSubsetExtraction
+    standard_name:                            unknown";1,7032E+16;2,46E+16;390625;0;SpatialSubsetExtraction
 "<xarray.DataArray 't2m' (time: 264, latitude: 0, longitude: 0)>
 [0 values with dtype=float32]
 Coordinates:
@@ -46,7 +46,7 @@ Attributes: (12/30)
     GRIB_units:                               K
     long_name:                                2 metre temperature
     units:                                    K
-    standard_name:                            unknown",0.0004287999909138307,100.0,0.0,1,SpatialSubsetExtraction
+    standard_name:                            unknown";4,288E+15;1000;0;1;SpatialSubsetExtraction
 "<xarray.Dataset>
 Dimensions:       (time: 264, latitude: 501, longitude: 701)
 Coordinates:
@@ -67,7 +67,7 @@ Attributes:
     GRIB_subCentre:          0
     Conventions:             CF-1.7
     institution:             European Centre for Medium-Range Weather Forecasts
-    history:                 2024-02-25T11:21 GRIB to CDM+CF via cfgrib-0.9.1...",1.4369412999949418,7.0,686.80859375,2,AddDerivedVariable
+    history:                 2024-02-25T11:21 GRIB to CDM+CF via cfgrib-0.9.1...";1,43694E+16;70;68680859375;2;AddDerivedVariable
 "<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
 array([[259.49878, 259.58472, 259.66675, ...,       nan,       nan,
               nan],
@@ -87,7 +87,7 @@ Coordinates:
     step       timedelta64[ns] ...
     surface    float64 ...
   * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
-  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.01646860000619199,12.5,9.94140625,3,SeasonalAggregation
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0";1,64686E+15;125;994140625;3;SeasonalAggregation
 "<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
 array([[257.97607, 258.0874 , 258.19482, ...,       nan,       nan,
               nan],
@@ -107,7 +107,7 @@ Coordinates:
     step       timedelta64[ns] ...
     surface    float64 ...
   * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
-  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.01843389999703504,12.5,-3.0859375,4,SeasonalAggregation
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0";1,84339E+15;125;-30859375;4;SeasonalAggregation
 "<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
 array([[243.10631, 243.17467, 243.23717, ...,       nan,       nan,
               nan],
@@ -127,7 +127,7 @@ Coordinates:
     step       timedelta64[ns] ...
     surface    float64 ...
   * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
-  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.010886599993682466,-7.4,9.3046875,5,TemporalRangeAggregation
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0";1,08866E+16;-74;93046875;5;TemporalRangeAggregation
 "<xarray.Dataset>
 Dimensions:       (time: 264, latitude: 501, longitude: 701)
 Coordinates:
@@ -148,7 +148,7 @@ Attributes:
     GRIB_subCentre:          0
     Conventions:             CF-1.7
     institution:             European Centre for Medium-Range Weather Forecasts
-    history:                 2024-02-25T11:21 GRIB to CDM+CF via cfgrib-0.9.1...",0.01743469999928493,3.4,-2.90625,6,TemporalDataModification
+    history:                 2024-02-25T11:21 GRIB to CDM+CF via cfgrib-0.9.1...";1,74347E+15;34;-290625;6;TemporalDataModification
 "<xarray.DataArray 't2m' (time: 264, latitude: 0, longitude: 0)>
 array([], shape=(264, 0, 0), dtype=float32)
 Coordinates:
@@ -172,7 +172,7 @@ Attributes: (12/30)
     GRIB_units:                               K
     long_name:                                2 metre temperature
     units:                                    K
-    standard_name:                            unknown",0.0006721000099787489,0.0,-0.1953125,7,SpatialSubsetExtraction
+    standard_name:                            unknown";6,721E+15;0;-1953125;7;SpatialSubsetExtraction
 "<xarray.DataArray 't2m' (time: 264, latitude: 0, longitude: 701)>
 array([], shape=(264, 0, 701), dtype=float32)
 Coordinates:
@@ -196,7 +196,7 @@ Attributes: (12/30)
     GRIB_units:                               K
     long_name:                                2 metre temperature
     units:                                    K
-    standard_name:                            unknown",0.0004852999991271645,-7.1,-0.5,8,SpatialSubsetExtraction
+    standard_name:                            unknown";4,853E+15;-71;-5;8;SpatialSubsetExtraction
 "<xarray.Dataset>
 Dimensions:       (time: 264, latitude: 501, longitude: 701)
 Coordinates:
@@ -217,7 +217,7 @@ Attributes:
     GRIB_subCentre:          0
     Conventions:             CF-1.7
     institution:             European Centre for Medium-Range Weather Forecasts
-    history:                 2024-02-25T11:21 GRIB to CDM+CF via cfgrib-0.9.1...",0.12871330000052694,9.1,355.09375,9,AddDerivedVariable
+    history:                 2024-02-25T11:21 GRIB to CDM+CF via cfgrib-0.9.1...";1,28713E+16;91;35509375;9;AddDerivedVariable
 "<xarray.Dataset>
 Dimensions:       (time: 264, latitude: 501, longitude: 701)
 Coordinates:
@@ -238,7 +238,7 @@ Attributes:
     GRIB_subCentre:          0
     Conventions:             CF-1.7
     institution:             European Centre for Medium-Range Weather Forecasts
-    history:                 2024-02-25T11:21 GRIB to CDM+CF via cfgrib-0.9.1...",0.015916799995466135,6.2,3.0703125,10,TemporalDataModification
+    history:                 2024-02-25T11:21 GRIB to CDM+CF via cfgrib-0.9.1...";1,59168E+16;62;30703125;10;TemporalDataModification
 "<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
 array([[260.85718, 260.9646 , 261.0642 , ...,       nan,       nan,
               nan],
@@ -258,7 +258,7 @@ Coordinates:
     step       timedelta64[ns] ...
     surface    float64 ...
   * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
-  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.015391900000395253,6.2,5.19921875,11,SeasonalAggregation
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0";1,53919E+16;62;519921875;11;SeasonalAggregation
 "<xarray.Dataset>
 Dimensions:       (time: 264, latitude: 501, longitude: 701)
 Coordinates:
@@ -279,7 +279,7 @@ Attributes:
     GRIB_subCentre:          0
     Conventions:             CF-1.7
     institution:             European Centre for Medium-Range Weather Forecasts
-    history:                 2024-02-25T11:21 GRIB to CDM+CF via cfgrib-0.9.1...",0.16303909999260213,-2.3999999999999995,351.76171875,12,AddDerivedVariable
+    history:                 2024-02-25T11:21 GRIB to CDM+CF via cfgrib-0.9.1...";1,63039E+16;-2,4E+16;35176171875;12;AddDerivedVariable
 "<xarray.Dataset>
 Dimensions:       (time: 264, latitude: 501, longitude: 701)
 Coordinates:
@@ -300,7 +300,7 @@ Attributes:
     GRIB_subCentre:          0
     Conventions:             CF-1.7
     institution:             European Centre for Medium-Range Weather Forecasts
-    history:                 2024-02-25T11:21 GRIB to CDM+CF via cfgrib-0.9.1...",0.014810799999395385,0.0,0.0,13,TemporalDataModification
+    history:                 2024-02-25T11:21 GRIB to CDM+CF via cfgrib-0.9.1...";1,48108E+16;0;0;13;TemporalDataModification
 "<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
 array([[486.21262, 486.34933, 486.47433, ...,   0.     ,   0.     ,
           0.     ],
@@ -320,7 +320,7 @@ Coordinates:
     step       timedelta64[ns] ...
     surface    float64 ...
   * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
-  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.00404329999582842,16.7,3.6484375,14,TemporalRangeAggregation
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0";4,0433E+14;167;36484375;14;TemporalRangeAggregation
 "<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
 array([[243.10631, 243.17467, 243.23717, ...,       nan,       nan,
               nan],
@@ -340,7 +340,7 @@ Coordinates:
     step       timedelta64[ns] ...
     surface    float64 ...
   * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
-  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.004293999998481013,0.0,0.03515625,15,TemporalRangeAggregation
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0";4,294E+15;0;3515625;15;TemporalRangeAggregation
 "<xarray.DataArray 't2m' (time: 264, latitude: 0, longitude: 482)>
 array([], shape=(264, 0, 482), dtype=float32)
 Coordinates:
@@ -364,7 +364,7 @@ Attributes: (12/30)
     GRIB_units:                               K
     long_name:                                2 metre temperature
     units:                                    K
-    standard_name:                            unknown",0.00044999999227002263,50.0,0.0,16,SpatialSubsetExtraction
+    standard_name:                            unknown";4,5E+16;500;0;16;SpatialSubsetExtraction
 "<xarray.Dataset>
 Dimensions:       (time: 264, latitude: 501, longitude: 701)
 Coordinates:
@@ -385,7 +385,7 @@ Attributes:
     GRIB_subCentre:          0
     Conventions:             CF-1.7
     institution:             European Centre for Medium-Range Weather Forecasts
-    history:                 2024-02-25T11:21 GRIB to CDM+CF via cfgrib-0.9.1...",0.01365300000179559,0.0,0.0,17,TemporalDataModification
+    history:                 2024-02-25T11:21 GRIB to CDM+CF via cfgrib-0.9.1...";1,3653E+15;0;0;17;TemporalDataModification
 "<xarray.Dataset>
 Dimensions:       (time: 264, latitude: 501, longitude: 701)
 Coordinates:
@@ -406,7 +406,7 @@ Attributes:
     GRIB_subCentre:          0
     Conventions:             CF-1.7
     institution:             European Centre for Medium-Range Weather Forecasts
-    history:                 2024-02-25T11:21 GRIB to CDM+CF via cfgrib-0.9.1...",0.015690700005507097,9.5,-0.65625,18,TemporalDataModification
+    history:                 2024-02-25T11:21 GRIB to CDM+CF via cfgrib-0.9.1...";1,56907E+16;95;-65625;18;TemporalDataModification
 "<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
 array([[250.03526, 250.1251 , 250.21169, ...,       nan,       nan,
               nan],
@@ -426,7 +426,7 @@ Coordinates:
     step       timedelta64[ns] ...
     surface    float64 ...
   * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
-  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.015541599990683608,0.0,4.21484375,19,SeasonalAggregation
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0";1,55416E+16;0;421484375;19;SeasonalAggregation
 "<xarray.Dataset>
 Dimensions:       (time: 264, latitude: 501, longitude: 701)
 Coordinates:
@@ -447,7 +447,7 @@ Attributes:
     GRIB_subCentre:          0
     Conventions:             CF-1.7
     institution:             European Centre for Medium-Range Weather Forecasts
-    history:                 2024-02-25T11:21 GRIB to CDM+CF via cfgrib-0.9.1...",0.0935623000113992,6.8,347.71484375,20,AddDerivedVariable
+    history:                 2024-02-25T11:21 GRIB to CDM+CF via cfgrib-0.9.1...";9,35623E+14;68;34771484375;20;AddDerivedVariable
 "<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
 array([[486.21262, 486.34933, 486.47433, ...,   0.     ,   0.     ,
           0.     ],
@@ -467,7 +467,7 @@ Coordinates:
     step       timedelta64[ns] ...
     surface    float64 ...
   * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
-  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.003182500004186295,-4.2,3.15625,21,TemporalRangeAggregation
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0";3,1825E+15;-42;315625;21;TemporalRangeAggregation
 "<xarray.DataArray 't2m' (time: 264, latitude: 0, longitude: 549)>
 array([], shape=(264, 0, 549), dtype=float32)
 Coordinates:
@@ -491,7 +491,7 @@ Attributes: (12/30)
     GRIB_units:                               K
     long_name:                                2 metre temperature
     units:                                    K
-    standard_name:                            unknown",0.0004926999972667545,0.0,0.0,22,SpatialSubsetExtraction
+    standard_name:                            unknown";4,927E+15;0;0;22;SpatialSubsetExtraction
 "<xarray.Dataset>
 Dimensions:       (time: 264, latitude: 501, longitude: 701)
 Coordinates:
@@ -512,7 +512,7 @@ Attributes:
     GRIB_subCentre:          0
     Conventions:             CF-1.7
     institution:             European Centre for Medium-Range Weather Forecasts
-    history:                 2024-02-25T11:21 GRIB to CDM+CF via cfgrib-0.9.1...",0.013202999994973652,9.1,0.0,23,TemporalDataModification
+    history:                 2024-02-25T11:21 GRIB to CDM+CF via cfgrib-0.9.1...";1,3203E+16;91;0;23;TemporalDataModification
 "<xarray.DataArray 't2m' (time: 264, latitude: 0, longitude: 701)>
 array([], shape=(264, 0, 701), dtype=float32)
 Coordinates:
@@ -536,7 +536,7 @@ Attributes: (12/30)
     GRIB_units:                               K
     long_name:                                2 metre temperature
     units:                                    K
-    standard_name:                            unknown",0.00043590000132098794,0.0,0.0,24,SpatialSubsetExtraction
+    standard_name:                            unknown";4,359E+16;0;0;24;SpatialSubsetExtraction
 "<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
 array([[243.10631, 243.17467, 243.23717, ...,       nan,       nan,
               nan],
@@ -556,7 +556,7 @@ Coordinates:
     step       timedelta64[ns] ...
     surface    float64 ...
   * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
-  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.004463499994017184,0.0,0.171875,25,TemporalRangeAggregation
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0";4,4635E+15;0;171875;25;TemporalRangeAggregation
 "<xarray.Dataset>
 Dimensions:       (time: 264, latitude: 501, longitude: 701)
 Coordinates:
@@ -577,7 +577,7 @@ Attributes:
     GRIB_subCentre:          0
     Conventions:             CF-1.7
     institution:             European Centre for Medium-Range Weather Forecasts
-    history:                 2024-02-25T11:21 GRIB to CDM+CF via cfgrib-0.9.1...",0.09698159999970812,3.0,352.8671875,26,AddDerivedVariable
+    history:                 2024-02-25T11:21 GRIB to CDM+CF via cfgrib-0.9.1...";9,69816E+15;30;3528671875;26;AddDerivedVariable
 "<xarray.DataArray 't2m' (time: 264, latitude: 0, longitude: 701)>
 array([], shape=(264, 0, 701), dtype=float32)
 Coordinates:
@@ -601,7 +601,7 @@ Attributes: (12/30)
     GRIB_units:                               K
     long_name:                                2 metre temperature
     units:                                    K
-    standard_name:                            unknown",0.00041539999074302614,0.0,0.0,27,SpatialSubsetExtraction
+    standard_name:                            unknown";4,154E+16;0;0;27;SpatialSubsetExtraction
 "<xarray.DataArray 't2m' (time: 264, latitude: 0, longitude: 0)>
 array([], shape=(264, 0, 0), dtype=float32)
 Coordinates:
@@ -625,7 +625,7 @@ Attributes: (12/30)
     GRIB_units:                               K
     long_name:                                2 metre temperature
     units:                                    K
-    standard_name:                            unknown",0.000559899999643676,0.0,-0.0078125,28,SpatialSubsetExtraction
+    standard_name:                            unknown";5,599E+14;0;-78125;28;SpatialSubsetExtraction
 "<xarray.Dataset>
 Dimensions:       (time: 264, latitude: 501, longitude: 701)
 Coordinates:
@@ -646,7 +646,7 @@ Attributes:
     GRIB_subCentre:          0
     Conventions:             CF-1.7
     institution:             European Centre for Medium-Range Weather Forecasts
-    history:                 2024-02-25T11:21 GRIB to CDM+CF via cfgrib-0.9.1...",0.11305060000449885,8.0,10.5625,29,AddDerivedVariable
+    history:                 2024-02-25T11:21 GRIB to CDM+CF via cfgrib-0.9.1...";1,13051E+16;80;105625;29;AddDerivedVariable
 "<xarray.Dataset>
 Dimensions:       (time: 264, latitude: 501, longitude: 701)
 Coordinates:
@@ -667,7 +667,7 @@ Attributes:
     GRIB_subCentre:          0
     Conventions:             CF-1.7
     institution:             European Centre for Medium-Range Weather Forecasts
-    history:                 2024-02-25T11:21 GRIB to CDM+CF via cfgrib-0.9.1...",0.013963100005639717,3.0999999999999996,5.70703125,30,TemporalDataModification
+    history:                 2024-02-25T11:21 GRIB to CDM+CF via cfgrib-0.9.1...";1,39631E+16;3,1E+16;570703125;30;TemporalDataModification
 "<xarray.DataArray 't2m' (time: 264, latitude: 0, longitude: 701)>
 array([], shape=(264, 0, 701), dtype=float32)
 Coordinates:
@@ -691,7 +691,7 @@ Attributes: (12/30)
     GRIB_units:                               K
     long_name:                                2 metre temperature
     units:                                    K
-    standard_name:                            unknown",0.0005262000049697235,14.3,0.0,31,SpatialSubsetExtraction
+    standard_name:                            unknown";5,262E+15;143;0;31;SpatialSubsetExtraction
 "<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
 array([[253.0523 , 253.12653, 253.19293, ...,       nan,       nan,
               nan],
@@ -711,7 +711,7 @@ Coordinates:
     step       timedelta64[ns] ...
     surface    float64 ...
   * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
-  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.015507799995248206,0.0,1.1875,32,SeasonalAggregation
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0";1,55078E+16;0;11875;32;SeasonalAggregation
 "<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
 array([[486.21262, 486.34933, 486.47433, ...,   0.     ,   0.     ,
           0.     ],
@@ -731,7 +731,7 @@ Coordinates:
     step       timedelta64[ns] ...
     surface    float64 ...
   * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
-  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.004986100000678562,-46.7,1.18359375,33,TemporalRangeAggregation
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0";4,9861E+15;-467;118359375;33;TemporalRangeAggregation
 "<xarray.DataArray 't2m' (time: 264, latitude: 0, longitude: 701)>
 array([], shape=(264, 0, 701), dtype=float32)
 Coordinates:
@@ -755,7 +755,7 @@ Attributes: (12/30)
     GRIB_units:                               K
     long_name:                                2 metre temperature
     units:                                    K
-    standard_name:                            unknown",0.0007493999873986468,-6.2,-0.734375,34,SpatialSubsetExtraction
+    standard_name:                            unknown";7,494E+15;-62;-734375;34;SpatialSubsetExtraction
 "<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
 array([[245.04782, 245.10837, 245.1611 , ...,       nan,       nan,
               nan],
@@ -775,7 +775,7 @@ Coordinates:
     step       timedelta64[ns] ...
     surface    float64 ...
   * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
-  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.0037035999994259328,0.0,0.625,35,TemporalRangeAggregation
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0";3,7036E+16;0;625;35;TemporalRangeAggregation
 "<xarray.DataArray 't2m' (time: 264, latitude: 0, longitude: 187)>
 array([], shape=(264, 0, 187), dtype=float32)
 Coordinates:
@@ -799,7 +799,7 @@ Attributes: (12/30)
     GRIB_units:                               K
     long_name:                                2 metre temperature
     units:                                    K
-    standard_name:                            unknown",0.000677700008964166,0.0,0.0,36,SpatialSubsetExtraction
+    standard_name:                            unknown";6,777E+14;0;0;36;SpatialSubsetExtraction
 "<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
 array([[255.70323, 255.80089, 255.89594, ...,       nan,       nan,
               nan],
@@ -819,7 +819,7 @@ Coordinates:
     step       timedelta64[ns] ...
     surface    float64 ...
   * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
-  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.01463299999886658,6.2,3.265625,37,SeasonalAggregation
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0";1,4633E+15;62;3265625;37;SeasonalAggregation
 "<xarray.Dataset>
 Dimensions:       (time: 264, latitude: 501, longitude: 701)
 Coordinates:
@@ -840,7 +840,7 @@ Attributes:
     GRIB_subCentre:          0
     Conventions:             CF-1.7
     institution:             European Centre for Medium-Range Weather Forecasts
-    history:                 2024-02-25T11:21 GRIB to CDM+CF via cfgrib-0.9.1...",0.013491100005921908,0.0,0.01953125,38,TemporalDataModification
+    history:                 2024-02-25T11:21 GRIB to CDM+CF via cfgrib-0.9.1...";1,34911E+16;0;1953125;38;TemporalDataModification
 "<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
 array([[243.10631, 243.17467, 243.23717, ...,       nan,       nan,
               nan],
@@ -860,7 +860,7 @@ Coordinates:
     step       timedelta64[ns] ...
     surface    float64 ...
   * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
-  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.00483890000032261,8.3,1.234375,39,TemporalRangeAggregation
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0";4,8389E+14;83;1234375;39;TemporalRangeAggregation
 "<xarray.DataArray 't2m' (time: 264, latitude: 0, longitude: 701)>
 array([], shape=(264, 0, 701), dtype=float32)
 Coordinates:
@@ -884,7 +884,7 @@ Attributes: (12/30)
     GRIB_units:                               K
     long_name:                                2 metre temperature
     units:                                    K
-    standard_name:                            unknown",0.0005013999907532707,0.0,0.0,40,SpatialSubsetExtraction
+    standard_name:                            unknown";5,014E+15;0;0;40;SpatialSubsetExtraction
 "<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
 array([[243.10631, 243.17467, 243.23717, ...,       nan,       nan,
               nan],
@@ -904,7 +904,7 @@ Coordinates:
     step       timedelta64[ns] ...
     surface    float64 ...
   * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
-  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.004672000010032207,0.0,1.26953125,41,TemporalRangeAggregation
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0";4,672E+15;0;126953125;41;TemporalRangeAggregation
 "<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
 array([[486.21262, 486.34933, 486.47433, ...,   0.     ,   0.     ,
           0.     ],
@@ -924,7 +924,7 @@ Coordinates:
     step       timedelta64[ns] ...
     surface    float64 ...
   * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
-  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.0035502999962773174,0.0,1.21875,42,TemporalRangeAggregation
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0";3,5503E+16;0;121875;42;TemporalRangeAggregation
 "<xarray.DataArray 't2m' (time: 264, latitude: 0, longitude: 172)>
 array([], shape=(264, 0, 172), dtype=float32)
 Coordinates:
@@ -948,7 +948,7 @@ Attributes: (12/30)
     GRIB_units:                               K
     long_name:                                2 metre temperature
     units:                                    K
-    standard_name:                            unknown",0.0005223999905865639,0.0,0.0,43,SpatialSubsetExtraction
+    standard_name:                            unknown";5,224E+15;0;0;43;SpatialSubsetExtraction
 "<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
 array([[243.10631, 243.17467, 243.23717, ...,       nan,       nan,
               nan],
@@ -968,7 +968,7 @@ Coordinates:
     step       timedelta64[ns] ...
     surface    float64 ...
   * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
-  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.005020300013711676,28.6,1.29296875,44,TemporalRangeAggregation
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0";5,0203E+15;286;129296875;44;TemporalRangeAggregation
 "<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
 array([[243.59526, 243.69617, 243.79317, ...,       nan,       nan,
               nan],
@@ -988,7 +988,7 @@ Coordinates:
     step       timedelta64[ns] ...
     surface    float64 ...
   * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
-  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.015759699992486276,0.0,0.97265625,45,SeasonalAggregation
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0";1,57597E+16;0;97265625;45;SeasonalAggregation
 "<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
 array([[486.21262, 486.34933, 486.47433, ...,   0.     ,   0.     ,
           0.     ],
@@ -1008,7 +1008,7 @@ Coordinates:
     step       timedelta64[ns] ...
     surface    float64 ...
   * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
-  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.0032555000070715323,-9.1,1.21875,46,TemporalRangeAggregation
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0";3,2555E+16;-91;121875;46;TemporalRangeAggregation
 "<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
 array([[243.10631, 243.17467, 243.23717, ...,       nan,       nan,
               nan],
@@ -1028,7 +1028,7 @@ Coordinates:
     step       timedelta64[ns] ...
     surface    float64 ...
   * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
-  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.004987700012861751,0.0,1.49609375,47,TemporalRangeAggregation
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0";4,9877E+15;0;149609375;47;TemporalRangeAggregation
 "<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
 array([[486.21262, 486.34933, 486.47433, ...,   0.     ,   0.     ,
           0.     ],
@@ -1048,7 +1048,7 @@ Coordinates:
     step       timedelta64[ns] ...
     surface    float64 ...
   * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
-  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.00513749998935964,13.3,1.203125,48,TemporalRangeAggregation
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0";5,1375E+14;133;1203125;48;TemporalRangeAggregation
 "<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
 array([[486.21262, 486.34933, 486.47433, ...,   0.     ,   0.     ,
           0.     ],
@@ -1068,7 +1068,7 @@ Coordinates:
     step       timedelta64[ns] ...
     surface    float64 ...
   * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
-  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.004371400005766191,0.0,1.2265625,49,TemporalRangeAggregation
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0";4,3714E+15;0;12265625;49;TemporalRangeAggregation
 "<xarray.DataArray 't2m' (time: 264, latitude: 0, longitude: 0)>
 array([], shape=(264, 0, 0), dtype=float32)
 Coordinates:
@@ -1092,7 +1092,7 @@ Attributes: (12/30)
     GRIB_units:                               K
     long_name:                                2 metre temperature
     units:                                    K
-    standard_name:                            unknown",0.0004626000009011477,0.0,0.0,50,SpatialSubsetExtraction
+    standard_name:                            unknown";4,626E+15;0;0;50;SpatialSubsetExtraction
 "<xarray.Dataset>
 Dimensions:       (time: 264, latitude: 501, longitude: 701)
 Coordinates:
@@ -1113,7 +1113,7 @@ Attributes:
     GRIB_subCentre:          0
     Conventions:             CF-1.7
     institution:             European Centre for Medium-Range Weather Forecasts
-    history:                 2024-02-25T11:21 GRIB to CDM+CF via cfgrib-0.9.1...",0.08892480000213254,8.4,334.06640625,51,AddDerivedVariable
+    history:                 2024-02-25T11:21 GRIB to CDM+CF via cfgrib-0.9.1...";8,89248E+15;84;33406640625;51;AddDerivedVariable
 "<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
 array([[486.21262, 486.34933, 486.47433, ...,   0.     ,   0.     ,
           0.     ],
@@ -1133,7 +1133,7 @@ Coordinates:
     step       timedelta64[ns] ...
     surface    float64 ...
   * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
-  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.0036565000045811757,6.7,2.6484375,52,TemporalRangeAggregation
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0";3,6565E+16;67;26484375;52;TemporalRangeAggregation
 "<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
 array([[243.10631, 243.17467, 243.23717, ...,       nan,       nan,
               nan],
@@ -1153,7 +1153,7 @@ Coordinates:
     step       timedelta64[ns] ...
     surface    float64 ...
   * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
-  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.004990199988242239,7.1,3.109375,53,TemporalRangeAggregation
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0";4,9902E+15;71;3109375;53;TemporalRangeAggregation
 "<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
 array([[243.10631, 243.17467, 243.23717, ...,       nan,       nan,
               nan],
@@ -1173,7 +1173,7 @@ Coordinates:
     step       timedelta64[ns] ...
     surface    float64 ...
   * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
-  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.005007899992051534,0.0,-0.30078125,54,TemporalRangeAggregation
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0";5,0079E+15;0;-30078125;54;TemporalRangeAggregation
 "<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
 array([[246.48708, 246.54372, 246.59254, ...,       nan,       nan,
               nan],
@@ -1193,7 +1193,7 @@ Coordinates:
     step       timedelta64[ns] ...
     surface    float64 ...
   * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
-  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.015612299990607426,20.0,3.9453125,55,SeasonalAggregation
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0";1,56123E+16;200;39453125;55;SeasonalAggregation
 "<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
 array([[243.10631, 243.17467, 243.23717, ...,       nan,       nan,
               nan],
@@ -1213,7 +1213,7 @@ Coordinates:
     step       timedelta64[ns] ...
     surface    float64 ...
   * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
-  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.0057040999963646755,-50.0,0.67578125,56,TemporalRangeAggregation
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0";5,7041E+16;-500;67578125;56;TemporalRangeAggregation
 "<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
 array([[254.57297, 254.67648, 254.7761 , ...,       nan,       nan,
               nan],
@@ -1233,7 +1233,7 @@ Coordinates:
     step       timedelta64[ns] ...
     surface    float64 ...
   * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
-  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.015040900005260482,6.2,1.609375,57,SeasonalAggregation
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0";1,50409E+16;62;1609375;57;SeasonalAggregation
 "<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
 array([[486.21262, 486.34933, 486.47433, ...,   0.     ,   0.     ,
           0.     ],
@@ -1253,7 +1253,7 @@ Coordinates:
     step       timedelta64[ns] ...
     surface    float64 ...
   * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
-  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.005690199992386624,-100.0,2.55859375,58,TemporalRangeAggregation
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0";5,6902E+15;-1000;255859375;58;TemporalRangeAggregation
 "<xarray.DataArray 't2m' (time: 264, latitude: 0, longitude: 563)>
 array([], shape=(264, 0, 563), dtype=float32)
 Coordinates:
@@ -1277,7 +1277,7 @@ Attributes: (12/30)
     GRIB_units:                               K
     long_name:                                2 metre temperature
     units:                                    K
-    standard_name:                            unknown",0.0006682000093860552,-100.0,0.1875,59,SpatialSubsetExtraction
+    standard_name:                            unknown";6,682E+15;-1000;1875;59;SpatialSubsetExtraction
 "<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
 array([[243.10631, 243.17467, 243.23717, ...,       nan,       nan,
               nan],
@@ -1297,7 +1297,7 @@ Coordinates:
     step       timedelta64[ns] ...
     surface    float64 ...
   * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
-  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.007542100007412955,7.1,12.5,60,TemporalRangeAggregation
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0";7,5421E+15;71;125;60;TemporalRangeAggregation
 "<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
 array([[267.01147, 267.1306 , 267.2439 , ...,       nan,       nan,
               nan],
@@ -1317,7 +1317,7 @@ Coordinates:
     step       timedelta64[ns] ...
     surface    float64 ...
   * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
-  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.014135899997199886,6.2,-2.16015625,61,SeasonalAggregation
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0";1,41359E+16;62;-216015625;61;SeasonalAggregation
 "<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
 array([[486.21262, 486.34933, 486.47433, ...,   0.     ,   0.     ,
           0.     ],
@@ -1337,7 +1337,7 @@ Coordinates:
     step       timedelta64[ns] ...
     surface    float64 ...
   * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
-  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.003082299997913651,-6.2,1.80078125,62,TemporalRangeAggregation
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0";3,0823E+15;-62;180078125;62;TemporalRangeAggregation
 "<xarray.Dataset>
 Dimensions:       (time: 264, latitude: 501, longitude: 701)
 Coordinates:
@@ -1358,7 +1358,7 @@ Attributes:
     GRIB_subCentre:          0
     Conventions:             CF-1.7
     institution:             European Centre for Medium-Range Weather Forecasts
-    history:                 2024-02-25T11:21 GRIB to CDM+CF via cfgrib-0.9.1...",0.112577699997928,5.7,20.22265625,63,AddDerivedVariable
+    history:                 2024-02-25T11:21 GRIB to CDM+CF via cfgrib-0.9.1...";1,12578E+14;57;2022265625;63;AddDerivedVariable
 "<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
 array([[243.10631, 243.17467, 243.23717, ...,       nan,       nan,
               nan],
@@ -1378,7 +1378,7 @@ Coordinates:
     step       timedelta64[ns] ...
     surface    float64 ...
   * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
-  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.003988299999036826,0.0,2.34375,64,TemporalRangeAggregation
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0";3,9883E+15;0;234375;64;TemporalRangeAggregation
 "<xarray.Dataset>
 Dimensions:       (time: 264, latitude: 501, longitude: 701)
 Coordinates:
@@ -1399,7 +1399,7 @@ Attributes:
     GRIB_subCentre:          0
     Conventions:             CF-1.7
     institution:             European Centre for Medium-Range Weather Forecasts
-    history:                 2024-02-25T11:21 GRIB to CDM+CF via cfgrib-0.9.1...",0.01321289999759756,6.7,1.64453125,65,TemporalDataModification
+    history:                 2024-02-25T11:21 GRIB to CDM+CF via cfgrib-0.9.1...";1,32129E+15;67;164453125;65;TemporalDataModification
 "<xarray.DataArray 't2m' (time: 264, latitude: 0, longitude: 0)>
 array([], shape=(264, 0, 0), dtype=float32)
 Coordinates:
@@ -1423,7 +1423,7 @@ Attributes: (12/30)
     GRIB_units:                               K
     long_name:                                2 metre temperature
     units:                                    K
-    standard_name:                            unknown",0.00043330001062713563,-14.3,0.0,66,SpatialSubsetExtraction
+    standard_name:                            unknown";4,333E+16;-143;0;66;SpatialSubsetExtraction
 "<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
 array([[486.21262, 486.34933, 486.47433, ...,   0.     ,   0.     ,
           0.     ],
@@ -1443,7 +1443,7 @@ Coordinates:
     step       timedelta64[ns] ...
     surface    float64 ...
   * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
-  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.005024099998991005,0.0,1.15625,67,TemporalRangeAggregation
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0";5,0241E+15;0;115625;67;TemporalRangeAggregation
 "<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
 array([[243.10631, 243.17467, 243.23717, ...,       nan,       nan,
               nan],
@@ -1463,7 +1463,7 @@ Coordinates:
     step       timedelta64[ns] ...
     surface    float64 ...
   * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
-  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.004791200000909157,0.0,1.2421875,68,TemporalRangeAggregation
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0";4,7912E+15;0;12421875;68;TemporalRangeAggregation
 "<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
 array([[486.21262, 486.34933, 486.47433, ...,   0.     ,   0.     ,
           0.     ],
@@ -1483,7 +1483,7 @@ Coordinates:
     step       timedelta64[ns] ...
     surface    float64 ...
   * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
-  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.0035348999954294413,0.0,1.1875,69,TemporalRangeAggregation
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0";3,5349E+16;0;11875;69;TemporalRangeAggregation
 "<xarray.Dataset>
 Dimensions:       (time: 264, latitude: 501, longitude: 701)
 Coordinates:
@@ -1504,7 +1504,7 @@ Attributes:
     GRIB_subCentre:          0
     Conventions:             CF-1.7
     institution:             European Centre for Medium-Range Weather Forecasts
-    history:                 2024-02-25T11:21 GRIB to CDM+CF via cfgrib-0.9.1...",0.012908699995023198,8.0,-0.3515625,70,TemporalDataModification
+    history:                 2024-02-25T11:21 GRIB to CDM+CF via cfgrib-0.9.1...";1,29087E+16;80;-3515625;70;TemporalDataModification
 "<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
 array([[254.57297, 254.67648, 254.7761 , ...,       nan,       nan,
               nan],
@@ -1524,7 +1524,7 @@ Coordinates:
     step       timedelta64[ns] ...
     surface    float64 ...
   * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
-  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.011752499995054677,0.0,-6.44140625,71,SeasonalAggregation
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0";1,17525E+16;0;-644140625;71;SeasonalAggregation
 "<xarray.Dataset>
 Dimensions:       (time: 264, latitude: 501, longitude: 701)
 Coordinates:
@@ -1545,7 +1545,7 @@ Attributes:
     GRIB_subCentre:          0
     Conventions:             CF-1.7
     institution:             European Centre for Medium-Range Weather Forecasts
-    history:                 2024-02-25T11:21 GRIB to CDM+CF via cfgrib-0.9.1...",0.01394560000335332,0.0,-0.07421875,72,TemporalDataModification
+    history:                 2024-02-25T11:21 GRIB to CDM+CF via cfgrib-0.9.1...";1,39456E+15;0;-7421875;72;TemporalDataModification
 "<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
 array([[251.06137, 251.14731, 251.22934, ...,       nan,       nan,
               nan],
@@ -1565,7 +1565,7 @@ Coordinates:
     step       timedelta64[ns] ...
     surface    float64 ...
   * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
-  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.011142500006826594,7.1,1.125,73,SeasonalAggregation
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0";1,11425E+16;71;1125;73;SeasonalAggregation
 "<xarray.DataArray 't2m' (time: 264, latitude: 0, longitude: 0)>
 array([], shape=(264, 0, 0), dtype=float32)
 Coordinates:
@@ -1589,7 +1589,7 @@ Attributes: (12/30)
     GRIB_units:                               K
     long_name:                                2 metre temperature
     units:                                    K
-    standard_name:                            unknown",0.0004924999957438558,0.0,-0.03125,74,SpatialSubsetExtraction
+    standard_name:                            unknown";4,925E+15;0;-3125;74;SpatialSubsetExtraction
 "<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
 array([[243.10631, 243.17467, 243.23717, ...,       nan,       nan,
               nan],
@@ -1609,7 +1609,7 @@ Coordinates:
     step       timedelta64[ns] ...
     surface    float64 ...
   * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
-  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.004996999996365048,6.2,1.19921875,75,TemporalRangeAggregation
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0";4,997E+15;62;119921875;75;TemporalRangeAggregation
 "<xarray.DataArray 't2m' (time: 264, latitude: 0, longitude: 701)>
 array([], shape=(264, 0, 701), dtype=float32)
 Coordinates:
@@ -1633,7 +1633,7 @@ Attributes: (12/30)
     GRIB_units:                               K
     long_name:                                2 metre temperature
     units:                                    K
-    standard_name:                            unknown",0.0005055999936303124,0.0,0.0,76,SpatialSubsetExtraction
+    standard_name:                            unknown";5,056E+15;0;0;76;SpatialSubsetExtraction
 "<xarray.Dataset>
 Dimensions:       (time: 264, latitude: 501, longitude: 701)
 Coordinates:
@@ -1654,7 +1654,7 @@ Attributes:
     GRIB_subCentre:          0
     Conventions:             CF-1.7
     institution:             European Centre for Medium-Range Weather Forecasts
-    history:                 2024-02-25T11:21 GRIB to CDM+CF via cfgrib-0.9.1...",0.09297179999703076,7.3,316.96875,77,AddDerivedVariable
+    history:                 2024-02-25T11:21 GRIB to CDM+CF via cfgrib-0.9.1...";9,29718E+15;73;31696875;77;AddDerivedVariable
 "<xarray.Dataset>
 Dimensions:       (time: 264, latitude: 501, longitude: 701)
 Coordinates:
@@ -1675,7 +1675,7 @@ Attributes:
     GRIB_subCentre:          0
     Conventions:             CF-1.7
     institution:             European Centre for Medium-Range Weather Forecasts
-    history:                 2024-02-25T11:21 GRIB to CDM+CF via cfgrib-0.9.1...",0.01624420000007376,15.2,-10.66015625,78,TemporalDataModification
+    history:                 2024-02-25T11:21 GRIB to CDM+CF via cfgrib-0.9.1...";1,62442E+15;152;-1066015625;78;TemporalDataModification
 "<xarray.DataArray 't2m' (time: 264, latitude: 0, longitude: 311)>
 array([], shape=(264, 0, 311), dtype=float32)
 Coordinates:
@@ -1699,7 +1699,7 @@ Attributes: (12/30)
     GRIB_units:                               K
     long_name:                                2 metre temperature
     units:                                    K
-    standard_name:                            unknown",0.000632499999483116,12.5,-1.33203125,79,SpatialSubsetExtraction
+    standard_name:                            unknown";6,325E+14;125;-133203125;79;SpatialSubsetExtraction
 "<xarray.Dataset>
 Dimensions:       (time: 264, latitude: 501, longitude: 701)
 Coordinates:
@@ -1720,7 +1720,7 @@ Attributes:
     GRIB_subCentre:          0
     Conventions:             CF-1.7
     institution:             European Centre for Medium-Range Weather Forecasts
-    history:                 2024-02-25T11:21 GRIB to CDM+CF via cfgrib-0.9.1...",0.11827700000139885,8.6,341.52734375,80,AddDerivedVariable
+    history:                 2024-02-25T11:21 GRIB to CDM+CF via cfgrib-0.9.1...";1,18277E+16;86;34152734375;80;AddDerivedVariable
 "<xarray.DataArray 't2m' (time: 264, latitude: 0, longitude: 256)>
 array([], shape=(264, 0, 256), dtype=float32)
 Coordinates:
@@ -1744,7 +1744,7 @@ Attributes: (12/30)
     GRIB_units:                               K
     long_name:                                2 metre temperature
     units:                                    K
-    standard_name:                            unknown",0.000490999998874031,0.0,-1.7109375,81,SpatialSubsetExtraction
+    standard_name:                            unknown";4,91E+14;0;-17109375;81;SpatialSubsetExtraction
 "<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
 array([[486.21262, 486.34933, 486.47433, ...,   0.     ,   0.     ,
           0.     ],
@@ -1764,7 +1764,7 @@ Coordinates:
     step       timedelta64[ns] ...
     surface    float64 ...
   * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
-  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.0051854000048479065,0.0,8.44921875,82,TemporalRangeAggregation
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0";5,1854E+16;0;844921875;82;TemporalRangeAggregation
 "<xarray.Dataset>
 Dimensions:       (time: 264, latitude: 501, longitude: 701)
 Coordinates:
@@ -1785,7 +1785,7 @@ Attributes:
     GRIB_subCentre:          0
     Conventions:             CF-1.7
     institution:             European Centre for Medium-Range Weather Forecasts
-    history:                 2024-02-25T11:21 GRIB to CDM+CF via cfgrib-0.9.1...",0.12879550000070594,-4.800000000000001,-7.7578125,83,AddDerivedVariable
+    history:                 2024-02-25T11:21 GRIB to CDM+CF via cfgrib-0.9.1...";1,28796E+16;-4,8E+15;-77578125;83;AddDerivedVariable
 "<xarray.Dataset>
 Dimensions:       (time: 264, latitude: 501, longitude: 701)
 Coordinates:
@@ -1806,7 +1806,7 @@ Attributes:
     GRIB_subCentre:          0
     Conventions:             CF-1.7
     institution:             European Centre for Medium-Range Weather Forecasts
-    history:                 2024-02-25T11:21 GRIB to CDM+CF via cfgrib-0.9.1...",0.013339299999643117,12.5,1.3359375,84,TemporalDataModification
+    history:                 2024-02-25T11:21 GRIB to CDM+CF via cfgrib-0.9.1...";1,33393E+16;125;13359375;84;TemporalDataModification
 "<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
 array([[259.16357, 259.2749 , 259.38232, ...,       nan,       nan,
               nan],
@@ -1826,7 +1826,7 @@ Coordinates:
     step       timedelta64[ns] ...
     surface    float64 ...
   * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
-  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.012397599988617003,6.7,1.2265625,85,SeasonalAggregation
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0";1,23976E+16;67;12265625;85;SeasonalAggregation
 "<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
 array([[486.21262, 486.34933, 486.47433, ...,   0.     ,   0.     ,
           0.     ],
@@ -1846,7 +1846,7 @@ Coordinates:
     step       timedelta64[ns] ...
     surface    float64 ...
   * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
-  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.005409200006397441,6.2,1.01171875,86,TemporalRangeAggregation
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0";5,4092E+15;62;101171875;86;TemporalRangeAggregation
 "<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
 array([[255.76619, 255.90291, 256.0357 , ...,       nan,       nan,
               nan],
@@ -1866,7 +1866,7 @@ Coordinates:
     step       timedelta64[ns] ...
     surface    float64 ...
   * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
-  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.013448700003209524,22.2,2.28515625,87,SeasonalAggregation
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0";1,34487E+16;222;228515625;87;SeasonalAggregation
 "<xarray.Dataset>
 Dimensions:       (time: 264, latitude: 501, longitude: 701)
 Coordinates:
@@ -1887,7 +1887,7 @@ Attributes:
     GRIB_subCentre:          0
     Conventions:             CF-1.7
     institution:             European Centre for Medium-Range Weather Forecasts
-    history:                 2024-02-25T11:21 GRIB to CDM+CF via cfgrib-0.9.1...",0.09536220000882167,9.3,326.8359375,88,AddDerivedVariable
+    history:                 2024-02-25T11:21 GRIB to CDM+CF via cfgrib-0.9.1...";9,53622E+15;93;3268359375;88;AddDerivedVariable
 "<xarray.Dataset>
 Dimensions:       (time: 264, latitude: 501, longitude: 701)
 Coordinates:
@@ -1908,7 +1908,7 @@ Attributes:
     GRIB_subCentre:          0
     Conventions:             CF-1.7
     institution:             European Centre for Medium-Range Weather Forecasts
-    history:                 2024-02-25T11:21 GRIB to CDM+CF via cfgrib-0.9.1...",0.009301300000515766,12.5,-0.26953125,89,TemporalDataModification
+    history:                 2024-02-25T11:21 GRIB to CDM+CF via cfgrib-0.9.1...";9,3013E+15;125;-26953125;89;TemporalDataModification
 "<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
 array([[243.10631, 243.17467, 243.23717, ...,       nan,       nan,
               nan],
@@ -1928,7 +1928,7 @@ Coordinates:
     step       timedelta64[ns] ...
     surface    float64 ...
   * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
-  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.007176999992225319,8.3,9.99609375,90,TemporalRangeAggregation
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0";7,177E+15;83;999609375;90;TemporalRangeAggregation
 "<xarray.DataArray 't2m' (time: 264, latitude: 0, longitude: 0)>
 array([], shape=(264, 0, 0), dtype=float32)
 Coordinates:
@@ -1952,7 +1952,7 @@ Attributes: (12/30)
     GRIB_units:                               K
     long_name:                                2 metre temperature
     units:                                    K
-    standard_name:                            unknown",0.000607900001341477,0.0,-2.35546875,91,SpatialSubsetExtraction
+    standard_name:                            unknown";6,079E+14;0;-235546875;91;SpatialSubsetExtraction
 "<xarray.DataArray 't2m' (time: 264, latitude: 0, longitude: 0)>
 array([], shape=(264, 0, 0), dtype=float32)
 Coordinates:
@@ -1976,7 +1976,7 @@ Attributes: (12/30)
     GRIB_units:                               K
     long_name:                                2 metre temperature
     units:                                    K
-    standard_name:                            unknown",0.0006457999988924712,100.0,-0.62890625,92,SpatialSubsetExtraction
+    standard_name:                            unknown";6,458E+15;1000;-62890625;92;SpatialSubsetExtraction
 "<xarray.Dataset>
 Dimensions:       (time: 264, latitude: 501, longitude: 701)
 Coordinates:
@@ -1997,7 +1997,7 @@ Attributes:
     GRIB_subCentre:          0
     Conventions:             CF-1.7
     institution:             European Centre for Medium-Range Weather Forecasts
-    history:                 2024-02-25T11:21 GRIB to CDM+CF via cfgrib-0.9.1...",0.10516649999772198,6.2,344.64453125,93,AddDerivedVariable
+    history:                 2024-02-25T11:21 GRIB to CDM+CF via cfgrib-0.9.1...";1,05166E+16;62;34464453125;93;AddDerivedVariable
 "<xarray.Dataset>
 Dimensions:       (time: 264, latitude: 501, longitude: 701)
 Coordinates:
@@ -2018,7 +2018,7 @@ Attributes:
     GRIB_subCentre:          0
     Conventions:             CF-1.7
     institution:             European Centre for Medium-Range Weather Forecasts
-    history:                 2024-02-25T11:21 GRIB to CDM+CF via cfgrib-0.9.1...",0.017995299989706837,0.0,4.0625,94,TemporalDataModification
+    history:                 2024-02-25T11:21 GRIB to CDM+CF via cfgrib-0.9.1...";1,79953E+16;0;40625;94;TemporalDataModification
 "<xarray.Dataset>
 Dimensions:       (time: 264, latitude: 501, longitude: 701)
 Coordinates:
@@ -2039,7 +2039,7 @@ Attributes:
     GRIB_subCentre:          0
     Conventions:             CF-1.7
     institution:             European Centre for Medium-Range Weather Forecasts
-    history:                 2024-02-25T11:21 GRIB to CDM+CF via cfgrib-0.9.1...",0.1129955000069458,6.7,331.66796875,95,AddDerivedVariable
+    history:                 2024-02-25T11:21 GRIB to CDM+CF via cfgrib-0.9.1...";1,12996E+15;67;33166796875;95;AddDerivedVariable
 "<xarray.Dataset>
 Dimensions:       (time: 264, latitude: 501, longitude: 701)
 Coordinates:
@@ -2060,7 +2060,7 @@ Attributes:
     GRIB_subCentre:          0
     Conventions:             CF-1.7
     institution:             European Centre for Medium-Range Weather Forecasts
-    history:                 2024-02-25T11:21 GRIB to CDM+CF via cfgrib-0.9.1...",0.13658829999621958,6.3,15.625,96,AddDerivedVariable
+    history:                 2024-02-25T11:21 GRIB to CDM+CF via cfgrib-0.9.1...";1,36588E+16;63;15625;96;AddDerivedVariable
 "<xarray.DataArray 't2m' (time: 264, latitude: 0, longitude: 369)>
 array([], shape=(264, 0, 369), dtype=float32)
 Coordinates:
@@ -2084,7 +2084,7 @@ Attributes: (12/30)
     GRIB_units:                               K
     long_name:                                2 metre temperature
     units:                                    K
-    standard_name:                            unknown",0.0004933999880449846,93.3,0.0546875,97,SpatialSubsetExtraction
+    standard_name:                            unknown";4,934E+15;933;546875;97;SpatialSubsetExtraction
 "<xarray.DataArray 't2m' (latitude: 501, longitude: 701)>
 array([[250.03526, 250.1251 , 250.21169, ...,       nan,       nan,
               nan],
@@ -2104,7 +2104,7 @@ Coordinates:
     step       timedelta64[ns] ...
     surface    float64 ...
   * latitude   (latitude) float64 75.0 74.9 74.8 74.7 ... 25.3 25.2 25.1 25.0
-  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0",0.02269430000160355,12.1,-6.7421875,98,SeasonalAggregation
+  * longitude  (longitude) float64 -25.0 -24.9 -24.8 -24.7 ... 44.8 44.9 45.0";2,26943E+15;121;-67421875;98;SeasonalAggregation
 "<xarray.DataArray 't2m' (time: 264, latitude: 0, longitude: 350)>
 array([], shape=(264, 0, 350), dtype=float32)
 Coordinates:
@@ -2128,4 +2128,4 @@ Attributes: (12/30)
     GRIB_units:                               K
     long_name:                                2 metre temperature
     units:                                    K
-    standard_name:                            unknown",0.0008821000083116814,13.3,-0.3828125,99,SpatialSubsetExtraction
+    standard_name:                            unknown";8,821E+15;133;-3828125;99;SpatialSubsetExtraction
