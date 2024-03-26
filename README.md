@@ -55,7 +55,7 @@ python workload_execution.py
 The benchmark results illustrate system performance across a variety of query types. Find a summary and detailed analysis in benchmark_results.csv.
 
 
-![Benchmark Results](path/to/benchmark_results_plot.png)
+![Benchmark Results](benchmark_results_plot.png)
 
 ## Contributing
 If interested, fork the repository, make the improvements, and submit a pull request.
