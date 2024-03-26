@@ -56,6 +56,7 @@ The benchmark results illustrate system performance across a variety of query ty
 
 
 ![Benchmark Results](benchmark_results_plot.png)
+*Visual Results for Evaluation*
 
 ## Contributing
 If interested, fork the repository, make the improvements, and submit a pull request.
