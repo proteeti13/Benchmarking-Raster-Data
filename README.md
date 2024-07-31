@@ -18,7 +18,7 @@ The benchmarking system performs extensive data processing tasks to assess vario
 Clone the repository using:
 
 ```bash
-git clone https://dbgit.prakinf.tu-ilmenau.de/students/2023-Research_Project-Proteeti_Prova_Rawshan/software.git
+git clone https://github.com/proteeti13/Benchmarking-Raster-Data.git
 
 ```
 
