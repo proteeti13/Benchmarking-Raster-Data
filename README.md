@@ -68,7 +68,7 @@ proteeti-prova.rawshan@tu-ilmenau.de / proteeti13@gmail.com\
 Technische Universität Ilmenau
 
 ## Acknowledgment
-Dr. Marcus Paradies\
+[Dr. Marcus Paradies](https://marcusparadies.github.io/)\
 PostDoc Researcher\
 Department of Databases and Information Systems\
 Technische Universität Ilmenau 
